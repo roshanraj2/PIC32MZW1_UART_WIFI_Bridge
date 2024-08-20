@@ -100,6 +100,12 @@ extern "C" {
 #endif
 // DOM-IGNORE-END
 
+/* Device Information */
+#define DEVICE_NAME			 "PIC32MZ1025W104132"
+#define DEVICE_ARCH			 "MIPS"
+#define DEVICE_FAMILY		 "PIC32MZW"
+#define DEVICE_SERIES		 "PIC32MZW"
+
 /* CPU clock frequency */
 #define CPU_CLOCK_FREQUENCY 200000000
 
@@ -216,10 +222,10 @@ typedef struct
 
     SYS_MODULE_OBJ  ba414e;
 
-	SYS_MODULE_OBJ  usbDevObject0;
+    SYS_MODULE_OBJ  usbDevObject0;
 
     SYS_MODULE_OBJ  sysTime;
-	SYS_MODULE_OBJ  drvUSBFSObject;
+    SYS_MODULE_OBJ  drvUSBFSObject;
 
     SYS_MODULE_OBJ  sysConsole0;
 
@@ -232,7 +238,9 @@ typedef struct
 
     SYS_MODULE_OBJ  netPres;
 
+
     SYS_MODULE_OBJ  drvWifiPIC32MZW1;
+
     SYS_MODULE_OBJ  syswifi;
 
 } SYSTEM_OBJECTS;
@@ -248,14 +256,6 @@ extern const USB_DEVICE_INIT usbDevInitData;
 
 
 extern SYSTEM_OBJECTS sysObj;
-
-    typedef struct {        
-        char msg[4096];
-        uint32_t magic;
-    } EXCEPT_MSG;
-
-    #define MAGIC_CODE 0x47114711
-
 
 //DOM-IGNORE-BEGIN
 #ifdef __cplusplus

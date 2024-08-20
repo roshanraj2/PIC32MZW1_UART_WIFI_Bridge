@@ -1,0 +1,1030 @@
+Aug 20, 2024 3:58:14 PM com.microchip.mcc.core.service.BaseLoggingService setLogLevel
+INFO: Setting loglevel to FINE for class com.microchip.mcc.standalone.service.StandaloneLibraryService
+Aug 20, 2024 3:58:14 PM com.microchip.mcc.core.service.BaseLoggingService setLogLevel
+INFO: Setting loglevel to WARNING for class com.microchip.mcc
+MCC> Saving Env Preference variable "MCC_HARMONY_CONTENT_PATH" with value "D:\A".
+MCC> MCC> Loading Configuration File..
+Progress indicator opened: Initializing project
+[main] INFO com.microchip.mh3.utils.HarmonyDeviceUtils - Harmony-  getting local Harmony Device List - D:\A\Devices\deviceslist.yml
+PjtXml=D:\A\FORKED_REPO\PIC32MZW1_UART_WIFI_Bridge\firmware\pic32mz_w1_curiosity_uartbridge_sta\firmware\pic32mz_w1_curiosity_freertos.X\nbproject\project.xml
+PjtXml=<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>com.microchip.mplab.nbide.embedded.makeproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/make-project/1">
+            <name>pic32mz_w1_curiosity_freertos_sta</name>
+            <creation-uuid>e54023e9-3948-44ef-bf6f-29d8b223e555</creation-uuid>
+            <make-project-type>0</make-project-type>
+            <c-extensions>c,S</c-extensions>
+            <cpp-extensions/>
+            <header-extensions>h</header-extensions>
+            <asminc-extensions/>
+            <sourceEncoding>ISO-8859-1</sourceEncoding>
+            <make-dep-projects/>
+            <sourceRootList>
+                <sourceRootElem>../src</sourceRootElem>
+            </sourceRootList>
+            <confList>
+                <confElem>
+                    <name>pic32mz_w1_eth_wifi_freertos</name>
+                    <type>2</type>
+                </confElem>
+            </confList>
+            <formatting>
+                <project-formatting-style>false</project-formatting-style>
+            </formatting>
+        </data>
+    </configuration>
+</project>
+
+PjtXml=D:\A\FORKED_REPO\PIC32MZW1_UART_WIFI_Bridge\firmware\pic32mz_w1_curiosity_uartbridge_sta\firmware\pic32mz_w1_curiosity_freertos.X\nbproject\project.xml
+PjtXml=<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>com.microchip.mplab.nbide.embedded.makeproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/make-project/1">
+            <name>pic32mz_w1_curiosity_freertos_sta</name>
+            <creation-uuid>e54023e9-3948-44ef-bf6f-29d8b223e555</creation-uuid>
+            <make-project-type>0</make-project-type>
+            <c-extensions>c,S</c-extensions>
+            <cpp-extensions/>
+            <header-extensions>h</header-extensions>
+            <asminc-extensions/>
+            <sourceEncoding>ISO-8859-1</sourceEncoding>
+            <make-dep-projects/>
+            <sourceRootList>
+                <sourceRootElem>../src</sourceRootElem>
+            </sourceRootList>
+            <confList>
+                <confElem>
+                    <name>pic32mz_w1_eth_wifi_freertos</name>
+                    <type>2</type>
+                </confElem>
+            </confList>
+            <formatting>
+                <project-formatting-style>false</project-formatting-style>
+            </formatting>
+        </data>
+    </configuration>
+</project>
+
+PjtXml=D:\A\FORKED_REPO\PIC32MZW1_UART_WIFI_Bridge\firmware\pic32mz_w1_curiosity_uartbridge_sta\firmware\pic32mz_w1_curiosity_freertos.X\nbproject\project.xml
+PjtXml=<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>com.microchip.mplab.nbide.embedded.makeproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/make-project/1">
+            <name>pic32mz_w1_curiosity_freertos_sta</name>
+            <creation-uuid>e54023e9-3948-44ef-bf6f-29d8b223e555</creation-uuid>
+            <make-project-type>0</make-project-type>
+            <c-extensions>c,S</c-extensions>
+            <cpp-extensions/>
+            <header-extensions>h</header-extensions>
+            <asminc-extensions/>
+            <sourceEncoding>ISO-8859-1</sourceEncoding>
+            <make-dep-projects/>
+            <sourceRootList>
+                <sourceRootElem>../src</sourceRootElem>
+            </sourceRootList>
+            <confList>
+                <confElem>
+                    <name>pic32mz_w1_eth_wifi_freertos</name>
+                    <type>2</type>
+                </confElem>
+            </confList>
+            <formatting>
+                <project-formatting-style>false</project-formatting-style>
+            </formatting>
+        </data>
+    </configuration>
+</project>
+
+[0;31m15:58:41.164  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.168  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.168  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.168  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.169  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.169  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.170  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.170  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.170  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.171  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.171  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.171  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.171  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.172  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.172  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.172  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.173  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.173  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.173  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.174  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.174  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.174  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.175  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.175  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.175  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.176  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.176  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.176  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.177  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.177  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.177  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.178  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.178  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.178  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[m[0;31m15:58:41.179  SEVERE: Attempt to add module twice. Skipping. com.microchip.mcc.harmony.HarmonyModule
+[mLoading of Config is complete.
+MCC> MCC> Force update on all modules.
+MCC> MCC> Starting Code Generation at the location:D:\A\FORKED_REPO\PIC32MZW1_UART_WIFI_Bridge\firmware\pic32mz_w1_curiosity_uartbridge_sta\firmware
+Starting Code Generation..
+Progress indicator opened: MCC Generating
+[0;31m15:59:00.665 WARNING: Generating 'sys_wifiprov_json.c'. Model GOOD
+[m[0;31m15:59:00.681 WARNING: Generating 'sys_wifiprov_json.h'. Model GOOD
+[m[0;31m15:59:00.682 WARNING: Generating 'sys_wifiprov.h'. Model GOOD
+[m[0;31m15:59:00.694 WARNING: Generating 'sys_wifiprov.c'. Model GOOD
+[m[0;31m15:59:00.701 WARNING: Generating 'usb_common.h'. Model GOOD
+[m[0;31m15:59:00.714 WARNING: Generating 'usb_device_mapping.h'. Model GOOD
+[m[0;31m15:59:00.725 WARNING: Generating 'usb_chapter_9.h'. Model GOOD
+[m[0;31m15:59:00.726 WARNING: Generating 'usb_device_local.h'. Model GOOD
+[m[0;31m15:59:00.726 WARNING: Generating 'usb_device_function_driver.h'. Model GOOD
+[m[0;31m15:59:00.728 WARNING: Generating 'usb_device_init_data.c'. Model GOOD
+[m[0;31m15:59:00.730 WARNING: Generating 'usb_external_dependencies.h'. Model GOOD
+[m[0;31m15:59:00.746 WARNING: Generating 'sys_time_definitions.h'. Model GOOD
+[m[0;31m15:59:00.751 WARNING: Generating 'plib_coretimer.h'. Model GOOD
+[m[0;31m15:59:00.755 WARNING: Generating 'plib_nvm.h'. Model GOOD
+[m[0;31m15:59:00.760 WARNING: Generating 'plib_nvm.c'. Model GOOD
+[m[0;31m15:59:00.761 WARNING: Generating 'plib_uart3.h'. Model GOOD
+[m[0;31m15:59:00.766 WARNING: Generating 'plib_uart1.h'. Model GOOD
+[m[0;31m15:59:00.766 WARNING: Generating 'plib_coretimer.c'. Model GOOD
+[m[0;31m15:59:00.769 WARNING: Generating 'sys_time.c'. Model GOOD
+[m[0;31m15:59:00.773 WARNING: Generating 'plib_uart2.h'. Model GOOD
+[m[0;31m15:59:00.783 WARNING: Generating 'drv_usb_external_dependencies.h'. Model GOOD
+[m[0;31m15:59:00.791 WARNING: Generating 'drv_usb.h'. Model GOOD
+[m[0;31m15:59:00.798 WARNING: Generating 'usb_device.h'. Model GOOD
+[m[0;31m15:59:00.807 WARNING: Generating 'plib_uart3.c'. Model GOOD
+[m[0;31m15:59:00.809 WARNING: Generating 'plib_uart1.c'. Model GOOD
+[m[0;31m15:59:00.812 WARNING: Generating 'drv_usbfs_variant_mapping.h'. Model GOOD
+[m[0;31m15:59:00.817 WARNING: Generating 'usb_host_hub_interface.h'. Model GOOD
+[m[0;31m15:59:00.828 WARNING: Generating 'drv_usbfs_local.h'. Model GOOD
+[m[0;31m15:59:00.834 WARNING: Generating 'plib_uart2.c'. Model GOOD
+[m[0;31m15:59:00.850 WARNING: Generating 'plib_usbfs.h'. Model GOOD
+[m[0;31m15:59:00.871 WARNING: Generating 'usb_hub.h'. Model GOOD
+[m[0;31m15:59:00.884 WARNING: Generating 'usbfs_registers.h'. Model GOOD
+[m[0;31m15:59:00.899 WARNING: Generating 'drv_usbfs.c'. Model GOOD
+[m[0;31m15:59:00.904 WARNING: Generating 'usbfs_registers.h'. Model GOOD
+[m[0;31m15:59:00.913 WARNING: Generating 'usb_host.h'. Model GOOD
+[m[0;31m15:59:00.915 WARNING: Generating 'plib_usbfs_header.h'. Model GOOD
+[m[0;31m15:59:00.921 WARNING: Generating 'usb_ActivityPending_Unsupported.h'. Model GOOD
+[m[0;31m15:59:00.923 WARNING: Generating 'usb_device.c'. Model GOOD
+[m[0;31m15:59:00.925 WARNING: Generating 'drv_usbfs.h'. Model GOOD
+[m[0;31m15:59:00.933 WARNING: Generating 'usb_AutomaticSuspend_Default.h'. Model GOOD
+[m[0;31m15:59:00.935 WARNING: Generating 'usb_AutomaticSuspend_Unsupported.h'. Model GOOD
+[m[0;31m15:59:00.936 WARNING: Generating 'usb_ActivityPending_Default.h'. Model GOOD
+[m[0;31m15:59:00.938 WARNING: Generating 'usb_BDTBaseAddress_Default.h'. Model GOOD
+[m[0;31m15:59:00.940 WARNING: Generating 'usb_BDTBaseAddress_Unsupported.h'. Model GOOD
+[m[0;31m15:59:00.942 WARNING: Generating 'usb_host_client_driver.h'. Model GOOD
+[m[0;31m15:59:00.945 WARNING: Generating 'usb_ALL_Interrupt_Unsupported.h'. Model GOOD
+[m[0;31m15:59:00.953 WARNING: Generating 'usb_ALL_Interrupt_Default.h'. Model GOOD
+[m[0;31m15:59:00.962 WARNING: Generating 'usb_BufferFreeze_Default.h'. Model GOOD
+[m[0;31m15:59:00.965 WARNING: Generating 'usb_EP0LowSpeedConnect_Default.h'. Model GOOD
+[m[0;31m15:59:00.966 WARNING: Generating 'usb_BDTFunctions_Unsupported.h'. Model GOOD
+[m[0;31m15:59:00.966 WARNING: Generating 'usb_DeviceAddress_Default.h'. Model GOOD
+[m[0;31m15:59:00.966 WARNING: Generating 'usb_EP0LowSpeedConnect_Unsupported.h'. Model GOOD
+[m[0;31m15:59:00.966 WARNING: Generating 'usb_BufferFreeze_Unsupported.h'. Model GOOD
+[m[0;31m15:59:00.971 WARNING: Generating 'drv_usbfs_device.c'. Model GOOD
+[m[0;31m15:59:00.972 WARNING: Generating 'usb_DeviceAddress_Unsupported.h'. Model GOOD
+[m[0;31m15:59:00.973 WARNING: Generating 'usb_EPnHandshake_Default.h'. Model GOOD
+[m[0;31m15:59:00.972 WARNING: Generating 'usb_EPnControlTransfer_Default.h'. Model GOOD
+[m[0;31m15:59:00.972 WARNING: Generating 'usb_EP0NAKRetry_Default.h'. Model GOOD
+[m[0;31m15:59:00.972 WARNING: Generating 'usb_EP0NAKRetry_Unsupported.h'. Model GOOD
+[m[0;31m15:59:00.977 WARNING: Generating 'usb_EPnStall_Default.h'. Model GOOD
+[m[0;31m15:59:00.982 WARNING: Generating 'usb_EPnRxEnableEnhanced_Unsupported.h'. Model GOOD
+[m[0;31m15:59:00.982 WARNING: Generating 'usb_EPnTxRx_Unsupported.h'. Model GOOD
+[m[0;31m15:59:00.984 WARNING: Generating 'usb_EPnTxRx_Default.h'. Model GOOD
+[m[0;31m15:59:00.986 WARNING: Generating 'usb_EPnStall_Unsupported.h'. Model GOOD
+[m[0;31m15:59:00.987 WARNING: Generating 'usb_EPnRxEnableEnhanced_PIC32.h'. Model GOOD
+[m[0;31m15:59:00.988 WARNING: Generating 'usb_EPnHandshake_Unsupported.h'. Model GOOD
+[m[0;31m15:59:00.989 WARNING: Generating 'usb_ERR_Interrupt_Unsupported.h'. Model GOOD
+[m[0;31m15:59:00.988 WARNING: Generating 'usb_ERR_Interrupt_Default.h'. Model GOOD
+[m[0;31m15:59:00.995 WARNING: Generating 'usb_ERR_InterruptStatus_Unsupported.h'. Model GOOD
+[m[0;31m15:59:00.995 WARNING: Generating 'usb_FrameNumber_Default.h'. Model GOOD
+[m[0;31m15:59:00.996 WARNING: Generating 'usb_EyePattern_Default.h'. Model GOOD
+[m[0;31m15:59:00.996 WARNING: Generating 'usb_ERR_InterruptStatus_Default.h'. Model GOOD
+[m[0;31m15:59:00.996 WARNING: Generating 'usb_EPnControlTransfer_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.000 WARNING: Generating 'usb_GEN_Interrupt_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.000 WARNING: Generating 'usb_EyePattern_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.002 WARNING: Generating 'usb_FrameNumber_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.003 WARNING: Generating 'usb_GEN_InterruptStatus_Default.h'. Model GOOD
+[m[0;31m15:59:01.005 WARNING: Generating 'usb_HostBusyWithToken_Default.h'. Model GOOD
+[m[0;31m15:59:01.006 WARNING: Generating 'usb_GEN_InterruptStatus_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.008 WARNING: Generating 'usb_LastDirection_Default.h'. Model GOOD
+[m[0;31m15:59:01.010 WARNING: Generating 'usb_LastDirection_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.011 WARNING: Generating 'usb_HostGeneratesReset_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.011 WARNING: Generating 'usb_HostGeneratesReset_Default.h'. Model GOOD
+[m[0;31m15:59:01.012 WARNING: Generating 'usb_HostBusyWithToken_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.012 WARNING: Generating 'usb_LastEndpoint_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.012 WARNING: Generating 'usb_LastEndpoint_Default.h'. Model GOOD
+[m[0;31m15:59:01.014 WARNING: Generating 'usb_LastPingPong_Default.h'. Model GOOD
+[m[0;31m15:59:01.016 WARNING: Generating 'usb_LastPingPong_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.018 WARNING: Generating 'usb_LastTransactionDetails_Default.h'. Model GOOD
+[m[0;31m15:59:01.021 WARNING: Generating 'usb_BDTFunctions_PIC32.h'. Model GOOD
+[m[0;31m15:59:01.022 WARNING: Generating 'usb_LiveSingleEndedZero_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.022 WARNING: Generating 'usb_LiveSingleEndedZero_Default.h'. Model GOOD
+[m[0;31m15:59:01.023 WARNING: Generating 'usb_ModuleBusy_Default.h'. Model GOOD
+[m[0;31m15:59:01.025 WARNING: Generating 'usb_LiveJState_Default.h'. Model GOOD
+[m[0;31m15:59:01.027 WARNING: Generating 'usb_ModulePower_32Bit16Bit.h'. Model GOOD
+[m[0;31m15:59:01.027 WARNING: Generating 'usb_ModulePower_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.030 WARNING: Generating 'usb_NextTokenSpeed_Default.h'. Model GOOD
+[m[0;31m15:59:01.030 WARNING: Generating 'usb_GEN_Interrupt_Default.h'. Model GOOD
+[m[0;31m15:59:01.031 WARNING: Generating 'usb_LiveJState_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.031 WARNING: Generating 'usb_OnChipPullup_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.033 WARNING: Generating 'usb_OnChipTransceiver_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.034 WARNING: Generating 'usb_OpModeSelect_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.036 WARNING: Generating 'usb_NextTokenSpeed_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.036 WARNING: Generating 'usb_OTG_ASessionValid_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.039 WARNING: Generating 'usb_OTG_BSessionEnd_Default.h'. Model GOOD
+[m[0;31m15:59:01.040 WARNING: Generating 'usb_OTG_BSessionEnd_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.041 WARNING: Generating 'usb_OTG_IDPinState_Default.h'. Model GOOD
+[m[0;31m15:59:01.041 WARNING: Generating 'usb_OTG_IDPinState_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.044 WARNING: Generating 'usb_OpModeSelect_Default.h'. Model GOOD
+[m[0;31m15:59:01.045 WARNING: Generating 'usb_OTG_Interrupt_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.046 WARNING: Generating 'usb_ModuleBusy_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.047 WARNING: Generating 'usb_OTG_InterruptStatus_Default.h'. Model GOOD
+[m[0;31m15:59:01.049 WARNING: Generating 'usb_OTG_Interrupt_Default.h'. Model GOOD
+[m[0;31m15:59:01.049 WARNING: Generating 'usb_OTG_LineState_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.049 WARNING: Generating 'usb_OTG_ASessionValid_Default.h'. Model GOOD
+[m[0;31m15:59:01.052 WARNING: Generating 'usb_OTG_PullUpPullDown_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.053 WARNING: Generating 'usb_OTG_PullUpPullDown_Default.h'. Model GOOD
+[m[0;31m15:59:01.055 WARNING: Generating 'usb_OTG_VbusCharge_Default.h'. Model GOOD
+[m[0;31m15:59:01.055 WARNING: Generating 'usb_OTG_SessionValid_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.055 WARNING: Generating 'usb_OTG_InterruptStatus_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.058 WARNING: Generating 'usb_OTG_VbusCharge_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.058 WARNING: Generating 'usb_LastTransactionDetails_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.058 WARNING: Generating 'usb_OTG_VbusDischarge_Default.h'. Model GOOD
+[m[0;31m15:59:01.060 WARNING: Generating 'usb_OTG_VbusDischarge_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.061 WARNING: Generating 'usb_OTG_VbusPowerOnOff_Default.h'. Model GOOD
+[m[0;31m15:59:01.063 WARNING: Generating 'usb_OTG_VbusPowerOnOff_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.065 WARNING: Generating 'usb_PingPongMode_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.066 WARNING: Generating 'usb_OTG_LineState_Default.h'. Model GOOD
+[m[0;31m15:59:01.066 WARNING: Generating 'usb_PacketTransfer_Default.h'. Model GOOD
+[m[0;31m15:59:01.067 WARNING: Generating 'usb_ResumeSignaling_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.067 WARNING: Generating 'usb_PacketTransfer_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.073 WARNING: Generating 'usb_SleepEntryGuard_Default.h'. Model GOOD
+[m[0;31m15:59:01.075 WARNING: Generating 'usb_ResumeSignaling_Default.h'. Model GOOD
+[m[0;31m15:59:01.076 WARNING: Generating 'usb_SOFThreshold_Default.h'. Model GOOD
+[m[0;31m15:59:01.076 WARNING: Generating 'usb_SpeedControl_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.077 WARNING: Generating 'usb_SOFThreshold_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.078 WARNING: Generating 'usb_SleepEntryGuard_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.079 WARNING: Generating 'usb_StartOfFrames_Default.h'. Model GOOD
+[m[0;31m15:59:01.079 WARNING: Generating 'usb_StartOfFrames_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.080 WARNING: Generating 'usb_StopInIdle_Default.h'. Model GOOD
+[m[0;31m15:59:01.080 WARNING: Generating 'usb_StopInIdle_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.083 WARNING: Generating 'usb_Suspend_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.084 WARNING: Generating 'usb_TokenEP_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.085 WARNING: Generating 'usb_Suspend_Default.h'. Model GOOD
+[m[0;31m15:59:01.085 WARNING: Generating 'usb_TokenPID_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.086 WARNING: Generating 'usb_OTG_SessionValid_Default.h'. Model GOOD
+[m[0;31m15:59:01.090 WARNING: Generating 'usb_UOEMonitor_Unsupported.h'. Model GOOD
+[m[0;31m15:59:01.090 WARNING: Generating 'usb_TokenEP_Default.h'. Model GOOD
+[m[0;31m15:59:01.093 WARNING: Generating 'usb_TokenPID_Default.h'. Model GOOD
+[m[0;31m15:59:01.097 WARNING: Generating 'device.h'. Model GOOD
+[m[0;31m15:59:01.105 WARNING: Generating 'usb_device_cdc_acm.c'. Model GOOD
+[m[0;31m15:59:01.109 WARNING: Generating 'usb_device_cdc_local.h'. Model GOOD
+[m[0;31m15:59:01.116 WARNING: Generating 'usb_cdc.h'. Model GOOD
+[m[0;31m15:59:01.125 WARNING: Generating 'sys_console_uart.c'. Model GOOD
+[m[0;31m15:59:01.138 WARNING: Generating 'sys_int.c'. Model GOOD
+[m[0;31m15:59:01.138 WARNING: Generating 'usb_device_cdc.c'. Model GOOD
+[m[0;31m15:59:01.138 WARNING: Generating 'sys_int_mapping.h'. Model GOOD
+[m[0;31m15:59:01.144 WARNING: Generating 'osal_definitions.h'. Model GOOD
+[m[0;31m15:59:01.145 WARNING: Generating 'sys_reset.h'. Model GOOD
+[m[0;31m15:59:01.145 WARNING: Generating 'sys_reset.c'. Model GOOD
+[m[0;31m15:59:01.151 WARNING: Generating 'user.h'. Model GOOD
+[m[0;31m15:59:01.155 WARNING: Generating 'configuration.h'. Model GOOD
+[m[0;31m15:59:01.157 WARNING: Generating 'system_module.h'. Model GOOD
+[m[0;31m15:59:01.157 WARNING: Generating 'sys_tasks.h'. Model GOOD
+[m[0;31m15:59:01.168 WARNING: Generating 'tasks.c'. Model GOOD
+[m[0;31m15:59:01.168 WARNING: Generating 'sys_int.h'. Model GOOD
+[m[0;31m15:59:01.196 WARNING: Generating 'osal_freertos.c'. Model GOOD
+[m[0;31m15:59:01.246 WARNING: Generating 'usb_device_cdc.h'. Model GOOD
+[m[0;31m15:59:01.251 WARNING: Generating 'sys_debug.h'. Model GOOD
+[m[0;31m15:59:01.369 WARNING: Generating 'dhcp.c'. Model GOOD
+[m[0;31m15:59:01.370 WARNING: Generating 'dns.c'. Model GOOD
+[m[0;31m15:59:01.394 WARNING: Generating 'tcpip_private.h'. Model GOOD
+[m[0;31m15:59:01.413 WARNING: Generating 'tcpip.h'. Model GOOD
+[m[0;31m15:59:01.460 WARNING: Generating 'definitions.h'. Model GOOD
+[m[0;31m15:59:01.463 WARNING: Generating 'interrupts.h'. Model GOOD
+[m[0;31m15:59:01.465 WARNING: Generating 'initialization.c'. Model GOOD
+[m[0;31m15:59:01.466 WARNING: Generating 'interrupts.c'. Model GOOD
+[m[0;31m15:59:01.471 WARNING: Generating 'sys_console_usb_cdc.c'. Model GOOD
+[m[0;31m15:59:01.471 WARNING: Generating 'toolchain_specifics.h'. Model GOOD
+[m[0;31m15:59:01.473 WARNING: Generating 'interrupts_a.S'. Model GOOD
+[m[0;31m15:59:01.475 WARNING: Generating 'sys_command.h'. Model GOOD
+[m[0;31m15:59:01.484 WARNING: Generating 'xc32_monitor.c'. Model GOOD
+[m[0;31m15:59:01.489 WARNING: Generating 'plib_clk.h'. Model GOOD
+[m[0;31m15:59:01.492 WARNING: Generating 'plib_evic.h'. Model GOOD
+[m[0;31m15:59:01.496 WARNING: Generating 'plib_evic.c'. Model GOOD
+[m[0;31m15:59:01.505 WARNING: Generating 'pmu_init.c'. Model GOOD
+[m[0;31m15:59:01.505 WARNING: Generating 'plib_gpio.c'. Model GOOD
+[m[0;31m15:59:01.513 WARNING: Generating 'plib_gpio.h'. Model GOOD
+[m[0;31m15:59:01.527 WARNING: Generating 'sys_command.c'. Model GOOD
+[m[0;31m15:59:01.534 WARNING: Generating 'sys_debug.c'. Model GOOD
+[m[0;31m15:59:01.535 WARNING: Generating 'plib_clk.c'. Model GOOD
+[m[0;31m15:59:01.637 WARNING: Generating 'drv_usart.h'. Model GOOD
+[m[0;31m15:59:02.233 WARNING: Generating 'net_pres_enc_glue.h'. Model GOOD
+[m[0;31m15:59:02.234 WARNING: Generating 'net_pres_cert_store.c'. Model GOOD
+[m[0;31m15:59:02.316 WARNING: Generating 'net_pres_enc_glue.c'. Model GOOD
+[m[0;31m15:59:02.346 WARNING: Generating 'drv_usart_definitions.h'. Model GOOD
+[m[0;31m15:59:02.354 WARNING: Generating 'drv_usart_local.h'. Model GOOD
+[m[0;31m15:59:02.365 WARNING: Generating 'sys_console.c'. Model GOOD
+[m[0;31m15:59:02.366 WARNING: Generating 'drv_usart.c'. Model GOOD
+[m[0;31m15:59:02.380 WARNING: Generating 'freertos_hooks.c'. Model GOOD
+[m[0;31m15:59:02.385 WARNING: Generating 'FreeRTOSConfig.h'. Model GOOD
+[m[0;31m15:59:02.391 WARNING: Generating 'sys_wifi.h'. Model GOOD
+[m[0;31m15:59:02.425 WARNING: Generating 'sys_console.h'. Model GOOD
+[m[0;31m15:59:02.493 WARNING: Generating 'sys_wifi.c'. Model GOOD
+[m[1;30m15:59:05.140    INFO: Generation Results :
+[m[1;30m15:59:05.141    INFO:     ..\src\app.c                                       Success.
+[m[1;30m15:59:05.141    INFO:     ..\src\app.h                                       Success.
+[m[1;30m15:59:05.141    INFO:     ...g\pic32mz_w1_eth_wifi_freertos\FreeRTOSConfig.h Success. New file.
+[m[1;30m15:59:05.142    INFO:     ...rc\config\pic32mz_w1_eth_wifi_freertos\config.h Success. New file.
+[m[1;30m15:59:05.142    INFO:     ...ig\pic32mz_w1_eth_wifi_freertos\configuration.h Success. New file.
+[m[1;30m15:59:05.142    INFO:     ...ig\pic32mz_w1_eth_wifi_freertos\crypto\crypto.h Success. New file.
+[m[1;30m15:59:05.142    INFO:     ...ic32mz_w1_eth_wifi_freertos\crypto\src\crypto.c Success. New file.
+[m[1;30m15:59:05.142    INFO:     ...nfig\pic32mz_w1_eth_wifi_freertos\definitions.h Success. New file.
+[m[1;30m15:59:05.142    INFO:     ...rc\config\pic32mz_w1_eth_wifi_freertos\device.h Success. New file.
+[m[1;30m15:59:05.143    INFO:     ...w1_eth_wifi_freertos\driver\ba414e\drv_ba414e.h Success. New file.
+[m[1;30m15:59:05.143    INFO:     ...freertos\driver\ba414e\drv_ba414e_definitions.h Success. New file.
+[m[1;30m15:59:05.143    INFO:     ...th_wifi_freertos\driver\ba414e\src\drv_ba414e.c Success. New file.
+[m[1;30m15:59:05.143    INFO:     ...i_freertos\driver\ba414e\src\drv_ba414e_local.h Success. New file.
+[m[1;30m15:59:05.143    INFO:     ...ig\pic32mz_w1_eth_wifi_freertos\driver\driver.h Success. New file.
+[m[1;30m15:59:05.144    INFO:     ...2mz_w1_eth_wifi_freertos\driver\driver_common.h Success. New file.
+[m[1;30m15:59:05.144    INFO:     ...z_w1_eth_wifi_freertos\driver\usart\drv_usart.h Success. New file.
+[m[1;30m15:59:05.145    INFO:     ...i_freertos\driver\usart\drv_usart_definitions.h Success. New file.
+[m[1;30m15:59:05.145    INFO:     ..._eth_wifi_freertos\driver\usart\src\drv_usart.c Success. New file.
+[m[1;30m15:59:05.145    INFO:     ...ifi_freertos\driver\usart\src\drv_usart_local.h Success. New file.
+[m[1;30m15:59:05.145    INFO:     ...c32mz_w1_eth_wifi_freertos\driver\usb\drv_usb.h Success. New file.
+[m[1;30m15:59:05.145    INFO:     ...rtos\driver\usb\drv_usb_external_dependencies.h Success. New file.
+[m[1;30m15:59:05.145    INFO:     ..._eth_wifi_freertos\driver\usb\usbfs\drv_usbfs.h Success. New file.
+[m[1;30m15:59:05.145    INFO:     ..._wifi_freertos\driver\usb\usbfs\src\drv_usbfs.c Success. New file.
+[m[1;30m15:59:05.146    INFO:     ...reertos\driver\usb\usbfs\src\drv_usbfs_device.c Success. New file.
+[m[1;30m15:59:05.146    INFO:     ...freertos\driver\usb\usbfs\src\drv_usbfs_local.h Success. New file.
+[m[1;30m15:59:05.146    INFO:     ...river\usb\usbfs\src\drv_usbfs_variant_mapping.h Success. New file.
+[m[1;30m15:59:05.146    INFO:     ...wifi_freertos\driver\usb\usbfs\src\plib_usbfs.h Success. New file.
+[m[1;30m15:59:05.146    INFO:     ...eertos\driver\usb\usbfs\src\plib_usbfs_header.h Success. New file.
+[m[1;30m15:59:05.146    INFO:     ...usbfs\src\templates\usb_ALL_Interrupt_Default.h Success. New file.
+[m[1;30m15:59:05.147    INFO:     ...s\src\templates\usb_ALL_Interrupt_Unsupported.h Success. New file.
+[m[1;30m15:59:05.147    INFO:     ...bfs\src\templates\usb_ActivityPending_Default.h Success. New file.
+[m[1;30m15:59:05.147    INFO:     ...src\templates\usb_ActivityPending_Unsupported.h Success. New file.
+[m[1;30m15:59:05.147    INFO:     ...fs\src\templates\usb_AutomaticSuspend_Default.h Success. New file.
+[m[1;30m15:59:05.147    INFO:     ...rc\templates\usb_AutomaticSuspend_Unsupported.h Success. New file.
+[m[1;30m15:59:05.147    INFO:     ...sbfs\src\templates\usb_BDTBaseAddress_Default.h Success. New file.
+[m[1;30m15:59:05.150    INFO:     ...\src\templates\usb_BDTBaseAddress_Unsupported.h Success. New file.
+[m[1;30m15:59:05.150    INFO:     ...sb\usbfs\src\templates\usb_BDTFunctions_PIC32.h Success. New file.
+[m[1;30m15:59:05.151    INFO:     ...fs\src\templates\usb_BDTFunctions_Unsupported.h Success. New file.
+[m[1;30m15:59:05.151    INFO:     ...\usbfs\src\templates\usb_BufferFreeze_Default.h Success. New file.
+[m[1;30m15:59:05.151    INFO:     ...fs\src\templates\usb_BufferFreeze_Unsupported.h Success. New file.
+[m[1;30m15:59:05.151    INFO:     ...usbfs\src\templates\usb_DeviceAddress_Default.h Success. New file.
+[m[1;30m15:59:05.151    INFO:     ...s\src\templates\usb_DeviceAddress_Unsupported.h Success. New file.
+[m[1;30m15:59:05.152    INFO:     ...\src\templates\usb_EP0LowSpeedConnect_Default.h Success. New file.
+[m[1;30m15:59:05.152    INFO:     ...\templates\usb_EP0LowSpeedConnect_Unsupported.h Success. New file.
+[m[1;30m15:59:05.152    INFO:     ...b\usbfs\src\templates\usb_EP0NAKRetry_Default.h Success. New file.
+[m[1;30m15:59:05.152    INFO:     ...bfs\src\templates\usb_EP0NAKRetry_Unsupported.h Success. New file.
+[m[1;30m15:59:05.152    INFO:     ...\src\templates\usb_EPnControlTransfer_Default.h Success. New file.
+[m[1;30m15:59:05.153    INFO:     ...\templates\usb_EPnControlTransfer_Unsupported.h Success. New file.
+[m[1;30m15:59:05.153    INFO:     ...\usbfs\src\templates\usb_EPnHandshake_Default.h Success. New file.
+[m[1;30m15:59:05.154    INFO:     ...fs\src\templates\usb_EPnHandshake_Unsupported.h Success. New file.
+[m[1;30m15:59:05.154    INFO:     ...s\src\templates\usb_EPnRxEnableEnhanced_PIC32.h Success. New file.
+[m[1;30m15:59:05.154    INFO:     ...templates\usb_EPnRxEnableEnhanced_Unsupported.h Success. New file.
+[m[1;30m15:59:05.155    INFO:     ...\usb\usbfs\src\templates\usb_EPnStall_Default.h Success. New file.
+[m[1;30m15:59:05.155    INFO:     ...\usbfs\src\templates\usb_EPnStall_Unsupported.h Success. New file.
+[m[1;30m15:59:05.155    INFO:     ...r\usb\usbfs\src\templates\usb_EPnTxRx_Default.h Success. New file.
+[m[1;30m15:59:05.155    INFO:     ...b\usbfs\src\templates\usb_EPnTxRx_Unsupported.h Success. New file.
+[m[1;30m15:59:05.155    INFO:     ...src\templates\usb_ERR_InterruptStatus_Default.h Success. New file.
+[m[1;30m15:59:05.155    INFO:     ...templates\usb_ERR_InterruptStatus_Unsupported.h Success. New file.
+[m[1;30m15:59:05.155    INFO:     ...usbfs\src\templates\usb_ERR_Interrupt_Default.h Success. New file.
+[m[1;30m15:59:05.156    INFO:     ...s\src\templates\usb_ERR_Interrupt_Unsupported.h Success. New file.
+[m[1;30m15:59:05.156    INFO:     ...sb\usbfs\src\templates\usb_EyePattern_Default.h Success. New file.
+[m[1;30m15:59:05.156    INFO:     ...sbfs\src\templates\usb_EyePattern_Unsupported.h Success. New file.
+[m[1;30m15:59:05.156    INFO:     ...b\usbfs\src\templates\usb_FrameNumber_Default.h Success. New file.
+[m[1;30m15:59:05.157    INFO:     ...bfs\src\templates\usb_FrameNumber_Unsupported.h Success. New file.
+[m[1;30m15:59:05.157    INFO:     ...src\templates\usb_GEN_InterruptStatus_Default.h Success. New file.
+[m[1;30m15:59:05.157    INFO:     ...templates\usb_GEN_InterruptStatus_Unsupported.h Success. New file.
+[m[1;30m15:59:05.157    INFO:     ...usbfs\src\templates\usb_GEN_Interrupt_Default.h Success. New file.
+[m[1;30m15:59:05.157    INFO:     ...s\src\templates\usb_GEN_Interrupt_Unsupported.h Success. New file.
+[m[1;30m15:59:05.157    INFO:     ...s\src\templates\usb_HostBusyWithToken_Default.h Success. New file.
+[m[1;30m15:59:05.158    INFO:     ...c\templates\usb_HostBusyWithToken_Unsupported.h Success. New file.
+[m[1;30m15:59:05.158    INFO:     ...\src\templates\usb_HostGeneratesReset_Default.h Success. New file.
+[m[1;30m15:59:05.158    INFO:     ...\templates\usb_HostGeneratesReset_Unsupported.h Success. New file.
+[m[1;30m15:59:05.158    INFO:     ...usbfs\src\templates\usb_LastDirection_Default.h Success. New file.
+[m[1;30m15:59:05.158    INFO:     ...s\src\templates\usb_LastDirection_Unsupported.h Success. New file.
+[m[1;30m15:59:05.158    INFO:     ...\usbfs\src\templates\usb_LastEndpoint_Default.h Success. New file.
+[m[1;30m15:59:05.159    INFO:     ...fs\src\templates\usb_LastEndpoint_Unsupported.h Success. New file.
+[m[1;30m15:59:05.159    INFO:     ...\usbfs\src\templates\usb_LastPingPong_Default.h Success. New file.
+[m[1;30m15:59:05.159    INFO:     ...fs\src\templates\usb_LastPingPong_Unsupported.h Success. New file.
+[m[1;30m15:59:05.159    INFO:     ...\templates\usb_LastTransactionDetails_Default.h Success. New file.
+[m[1;30m15:59:05.159    INFO:     ...plates\usb_LastTransactionDetails_Unsupported.h Success. New file.
+[m[1;30m15:59:05.160    INFO:     ...sb\usbfs\src\templates\usb_LiveJState_Default.h Success. New file.
+[m[1;30m15:59:05.160    INFO:     ...sbfs\src\templates\usb_LiveJState_Unsupported.h Success. New file.
+[m[1;30m15:59:05.160    INFO:     ...src\templates\usb_LiveSingleEndedZero_Default.h Success. New file.
+[m[1;30m15:59:05.160    INFO:     ...templates\usb_LiveSingleEndedZero_Unsupported.h Success. New file.
+[m[1;30m15:59:05.160    INFO:     ...sb\usbfs\src\templates\usb_ModuleBusy_Default.h Success. New file.
+[m[1;30m15:59:05.160    INFO:     ...sbfs\src\templates\usb_ModuleBusy_Unsupported.h Success. New file.
+[m[1;30m15:59:05.160    INFO:     ...sbfs\src\templates\usb_ModulePower_32Bit16Bit.h Success. New file.
+[m[1;30m15:59:05.161    INFO:     ...bfs\src\templates\usb_ModulePower_Unsupported.h Success. New file.
+[m[1;30m15:59:05.161    INFO:     ...sbfs\src\templates\usb_NextTokenSpeed_Default.h Success. New file.
+[m[1;30m15:59:05.161    INFO:     ...\src\templates\usb_NextTokenSpeed_Unsupported.h Success. New file.
+[m[1;30m15:59:05.161    INFO:     ...s\src\templates\usb_OTG_ASessionValid_Default.h Success. New file.
+[m[1;30m15:59:05.161    INFO:     ...c\templates\usb_OTG_ASessionValid_Unsupported.h Success. New file.
+[m[1;30m15:59:05.161    INFO:     ...bfs\src\templates\usb_OTG_BSessionEnd_Default.h Success. New file.
+[m[1;30m15:59:05.161    INFO:     ...src\templates\usb_OTG_BSessionEnd_Unsupported.h Success. New file.
+[m[1;30m15:59:05.162    INFO:     ...sbfs\src\templates\usb_OTG_IDPinState_Default.h Success. New file.
+[m[1;30m15:59:05.162    INFO:     ...\src\templates\usb_OTG_IDPinState_Unsupported.h Success. New file.
+[m[1;30m15:59:05.162    INFO:     ...src\templates\usb_OTG_InterruptStatus_Default.h Success. New file.
+[m[1;30m15:59:05.162    INFO:     ...templates\usb_OTG_InterruptStatus_Unsupported.h Success. New file.
+[m[1;30m15:59:05.162    INFO:     ...usbfs\src\templates\usb_OTG_Interrupt_Default.h Success. New file.
+[m[1;30m15:59:05.162    INFO:     ...s\src\templates\usb_OTG_Interrupt_Unsupported.h Success. New file.
+[m[1;30m15:59:05.162    INFO:     ...usbfs\src\templates\usb_OTG_LineState_Default.h Success. New file.
+[m[1;30m15:59:05.162    INFO:     ...s\src\templates\usb_OTG_LineState_Unsupported.h Success. New file.
+[m[1;30m15:59:05.163    INFO:     ...\src\templates\usb_OTG_PullUpPullDown_Default.h Success. New file.
+[m[1;30m15:59:05.163    INFO:     ...\templates\usb_OTG_PullUpPullDown_Unsupported.h Success. New file.
+[m[1;30m15:59:05.163    INFO:     ...fs\src\templates\usb_OTG_SessionValid_Default.h Success. New file.
+[m[1;30m15:59:05.163    INFO:     ...rc\templates\usb_OTG_SessionValid_Unsupported.h Success. New file.
+[m[1;30m15:59:05.163    INFO:     ...sbfs\src\templates\usb_OTG_VbusCharge_Default.h Success. New file.
+[m[1;30m15:59:05.163    INFO:     ...\src\templates\usb_OTG_VbusCharge_Unsupported.h Success. New file.
+[m[1;30m15:59:05.163    INFO:     ...s\src\templates\usb_OTG_VbusDischarge_Default.h Success. New file.
+[m[1;30m15:59:05.164    INFO:     ...c\templates\usb_OTG_VbusDischarge_Unsupported.h Success. New file.
+[m[1;30m15:59:05.164    INFO:     ...\src\templates\usb_OTG_VbusPowerOnOff_Default.h Success. New file.
+[m[1;30m15:59:05.164    INFO:     ...\templates\usb_OTG_VbusPowerOnOff_Unsupported.h Success. New file.
+[m[1;30m15:59:05.164    INFO:     ...fs\src\templates\usb_OnChipPullup_Unsupported.h Success. New file.
+[m[1;30m15:59:05.164    INFO:     ...c\templates\usb_OnChipTransceiver_Unsupported.h Success. New file.
+[m[1;30m15:59:05.164    INFO:     ...\usbfs\src\templates\usb_OpModeSelect_Default.h Success. New file.
+[m[1;30m15:59:05.165    INFO:     ...fs\src\templates\usb_OpModeSelect_Unsupported.h Success. New file.
+[m[1;30m15:59:05.165    INFO:     ...sbfs\src\templates\usb_PacketTransfer_Default.h Success. New file.
+[m[1;30m15:59:05.165    INFO:     ...\src\templates\usb_PacketTransfer_Unsupported.h Success. New file.
+[m[1;30m15:59:05.165    INFO:     ...fs\src\templates\usb_PingPongMode_Unsupported.h Success. New file.
+[m[1;30m15:59:05.166    INFO:     ...bfs\src\templates\usb_ResumeSignaling_Default.h Success. New file.
+[m[1;30m15:59:05.166    INFO:     ...src\templates\usb_ResumeSignaling_Unsupported.h Success. New file.
+[m[1;30m15:59:05.166    INFO:     ...\usbfs\src\templates\usb_SOFThreshold_Default.h Success. New file.
+[m[1;30m15:59:05.166    INFO:     ...fs\src\templates\usb_SOFThreshold_Unsupported.h Success. New file.
+[m[1;30m15:59:05.166    INFO:     ...bfs\src\templates\usb_SleepEntryGuard_Default.h Success. New file.
+[m[1;30m15:59:05.166    INFO:     ...src\templates\usb_SleepEntryGuard_Unsupported.h Success. New file.
+[m[1;30m15:59:05.166    INFO:     ...fs\src\templates\usb_SpeedControl_Unsupported.h Success. New file.
+[m[1;30m15:59:05.166    INFO:     ...usbfs\src\templates\usb_StartOfFrames_Default.h Success. New file.
+[m[1;30m15:59:05.167    INFO:     ...s\src\templates\usb_StartOfFrames_Unsupported.h Success. New file.
+[m[1;30m15:59:05.167    INFO:     ...sb\usbfs\src\templates\usb_StopInIdle_Default.h Success. New file.
+[m[1;30m15:59:05.167    INFO:     ...sbfs\src\templates\usb_StopInIdle_Unsupported.h Success. New file.
+[m[1;30m15:59:05.167    INFO:     ...r\usb\usbfs\src\templates\usb_Suspend_Default.h Success. New file.
+[m[1;30m15:59:05.167    INFO:     ...b\usbfs\src\templates\usb_Suspend_Unsupported.h Success. New file.
+[m[1;30m15:59:05.167    INFO:     ...r\usb\usbfs\src\templates\usb_TokenEP_Default.h Success. New file.
+[m[1;30m15:59:05.167    INFO:     ...b\usbfs\src\templates\usb_TokenEP_Unsupported.h Success. New file.
+[m[1;30m15:59:05.167    INFO:     ...\usb\usbfs\src\templates\usb_TokenPID_Default.h Success. New file.
+[m[1;30m15:59:05.168    INFO:     ...\usbfs\src\templates\usb_TokenPID_Unsupported.h Success. New file.
+[m[1;30m15:59:05.168    INFO:     ...sbfs\src\templates\usb_UOEMonitor_Unsupported.h Success. New file.
+[m[1;30m15:59:05.168    INFO:     ...river\usb\usbfs\src\templates\usbfs_registers.h Success. New file.
+[m[1;30m15:59:05.168    INFO:     ...freertos\driver\usb\usbfs\src\usbfs_registers.h Success. New file.
+[m[1;30m15:59:05.168    INFO:     ...os\driver\wifi\pic32mzw1\drv_pic32mzw1_crypto.c Success. New file.
+[m[1;30m15:59:05.168    INFO:     ...ertos\driver\wifi\pic32mzw1\drv_pic32mzw1_tls.c Success. New file.
+[m[1;30m15:59:05.168    INFO:     ...s\driver\wifi\pic32mzw1\include\drv_pic32mzw1.h Success. New file.
+[m[1;30m15:59:05.168    INFO:     ...r\wifi\pic32mzw1\include\drv_pic32mzw1_crypto.h Success. New file.
+[m[1;30m15:59:05.169    INFO:     ...iver\wifi\pic32mzw1\include\drv_pic32mzw1_tls.h Success. New file.
+[m[1;30m15:59:05.169    INFO:     ...s\driver\wifi\pic32mzw1\include\wdrv_pic32mzw.h Success. New file.
+[m[1;30m15:59:05.169    INFO:     ...iver\wifi\pic32mzw1\include\wdrv_pic32mzw_api.h Success. New file.
+[m[1;30m15:59:05.169    INFO:     ...er\wifi\pic32mzw1\include\wdrv_pic32mzw_assoc.h Success. New file.
+[m[1;30m15:59:05.169    INFO:     ...\wifi\pic32mzw1\include\wdrv_pic32mzw_authctx.h Success. New file.
+[m[1;30m15:59:05.169    INFO:     ...r\wifi\pic32mzw1\include\wdrv_pic32mzw_bssctx.h Success. New file.
+[m[1;30m15:59:05.170    INFO:     ...\wifi\pic32mzw1\include\wdrv_pic32mzw_bssfind.h Success. New file.
+[m[1;30m15:59:05.170    INFO:     ...iver\wifi\pic32mzw1\include\wdrv_pic32mzw_cfg.h Success. New file.
+[m[1;30m15:59:05.170    INFO:     ...fi\pic32mzw1\include\wdrv_pic32mzw_client_api.h Success. New file.
+[m[1;30m15:59:05.170    INFO:     ...r\wifi\pic32mzw1\include\wdrv_pic32mzw_common.h Success. New file.
+[m[1;30m15:59:05.170    INFO:     ...r\wifi\pic32mzw1\include\wdrv_pic32mzw_custie.h Success. New file.
+[m[1;30m15:59:05.170    INFO:     ...er\wifi\pic32mzw1\include\wdrv_pic32mzw_debug.h Success. New file.
+[m[1;30m15:59:05.170    INFO:     ...river\wifi\pic32mzw1\include\wdrv_pic32mzw_ie.h Success. New file.
+[m[1;30m15:59:05.170    INFO:     ...iver\wifi\pic32mzw1\include\wdrv_pic32mzw_mac.h Success. New file.
+[m[1;30m15:59:05.170    INFO:     ...river\wifi\pic32mzw1\include\wdrv_pic32mzw_ps.h Success. New file.
+[m[1;30m15:59:05.170    INFO:     ...ifi\pic32mzw1\include\wdrv_pic32mzw_regdomain.h Success. New file.
+[m[1;30m15:59:05.171    INFO:     ...r\wifi\pic32mzw1\include\wdrv_pic32mzw_softap.h Success. New file.
+[m[1;30m15:59:05.171    INFO:     ...iver\wifi\pic32mzw1\include\wdrv_pic32mzw_sta.h Success. New file.
+[m[1;30m15:59:05.171    INFO:     ..._freertos\driver\wifi\pic32mzw1\lib\pic32mzw1.a Success. New file.
+[m[1;30m15:59:05.171    INFO:     ..._freertos\driver\wifi\pic32mzw1\wdrv_pic32mzw.c Success. New file.
+[m[1;30m15:59:05.171    INFO:     ...tos\driver\wifi\pic32mzw1\wdrv_pic32mzw_assoc.c Success. New file.
+[m[1;30m15:59:05.171    INFO:     ...s\driver\wifi\pic32mzw1\wdrv_pic32mzw_authctx.c Success. New file.
+[m[1;30m15:59:05.171    INFO:     ...os\driver\wifi\pic32mzw1\wdrv_pic32mzw_bssctx.c Success. New file.
+[m[1;30m15:59:05.172    INFO:     ...s\driver\wifi\pic32mzw1\wdrv_pic32mzw_bssfind.c Success. New file.
+[m[1;30m15:59:05.172    INFO:     ...ertos\driver\wifi\pic32mzw1\wdrv_pic32mzw_cfg.c Success. New file.
+[m[1;30m15:59:05.172    INFO:     ...os\driver\wifi\pic32mzw1\wdrv_pic32mzw_custie.c Success. New file.
+[m[1;30m15:59:05.172    INFO:     ...eertos\driver\wifi\pic32mzw1\wdrv_pic32mzw_ie.c Success. New file.
+[m[1;30m15:59:05.172    INFO:     ...ertos\driver\wifi\pic32mzw1\wdrv_pic32mzw_int.c Success. New file.
+[m[1;30m15:59:05.172    INFO:     ...eertos\driver\wifi\pic32mzw1\wdrv_pic32mzw_ps.c Success. New file.
+[m[1;30m15:59:05.172    INFO:     ...driver\wifi\pic32mzw1\wdrv_pic32mzw_regdomain.c Success. New file.
+[m[1;30m15:59:05.173    INFO:     ...os\driver\wifi\pic32mzw1\wdrv_pic32mzw_softap.c Success. New file.
+[m[1;30m15:59:05.173    INFO:     ...ertos\driver\wifi\pic32mzw1\wdrv_pic32mzw_sta.c Success. New file.
+[m[1;30m15:59:05.173    INFO:     ...g\pic32mz_w1_eth_wifi_freertos\freertos_hooks.c Success. New file.
+[m[1;30m15:59:05.173    INFO:     ...g\pic32mz_w1_eth_wifi_freertos\initialization.c Success. New file.
+[m[1;30m15:59:05.173    INFO:     ...onfig\pic32mz_w1_eth_wifi_freertos\interrupts.c Success. New file.
+[m[1;30m15:59:05.173    INFO:     ...onfig\pic32mz_w1_eth_wifi_freertos\interrupts.h Success. New file.
+[m[1;30m15:59:05.173    INFO:     ...fig\pic32mz_w1_eth_wifi_freertos\interrupts_a.S Success. New file.
+[m[1;30m15:59:05.173    INFO:     ...ic32mz_w1_eth_wifi_freertos\library\tcpip\arp.h Success. New file.
+[m[1;30m15:59:05.174    INFO:     ..._eth_wifi_freertos\library\tcpip\berkeley_api.h Success. New file.
+[m[1;30m15:59:05.174    INFO:     ...c32mz_w1_eth_wifi_freertos\library\tcpip\ddns.h Success. New file.
+[m[1;30m15:59:05.174    INFO:     ...c32mz_w1_eth_wifi_freertos\library\tcpip\dhcp.h Success. New file.
+[m[1;30m15:59:05.174    INFO:     ...1_eth_wifi_freertos\library\tcpip\dhcp_server.h Success. New file.
+[m[1;30m15:59:05.174    INFO:     ...32mz_w1_eth_wifi_freertos\library\tcpip\dhcps.h Success. New file.
+[m[1;30m15:59:05.174    INFO:     ...2mz_w1_eth_wifi_freertos\library\tcpip\dhcpv6.h Success. New file.
+[m[1;30m15:59:05.174    INFO:     ...ic32mz_w1_eth_wifi_freertos\library\tcpip\dns.h Success. New file.
+[m[1;30m15:59:05.174    INFO:     ...c32mz_w1_eth_wifi_freertos\library\tcpip\dnss.h Success. New file.
+[m[1;30m15:59:05.174    INFO:     ...ic32mz_w1_eth_wifi_freertos\library\tcpip\ftp.h Success. New file.
+[m[1;30m15:59:05.175    INFO:     ...c32mz_w1_eth_wifi_freertos\library\tcpip\ftpc.h Success. New file.
+[m[1;30m15:59:05.175    INFO:     ...c32mz_w1_eth_wifi_freertos\library\tcpip\http.h Success. New file.
+[m[1;30m15:59:05.175    INFO:     ...z_w1_eth_wifi_freertos\library\tcpip\http_net.h Success. New file.
+[m[1;30m15:59:05.175    INFO:     ...c32mz_w1_eth_wifi_freertos\library\tcpip\icmp.h Success. New file.
+[m[1;30m15:59:05.175    INFO:     ...2mz_w1_eth_wifi_freertos\library\tcpip\icmpv6.h Success. New file.
+[m[1;30m15:59:05.175    INFO:     ...c32mz_w1_eth_wifi_freertos\library\tcpip\igmp.h Success. New file.
+[m[1;30m15:59:05.176    INFO:     ...32mz_w1_eth_wifi_freertos\library\tcpip\iperf.h Success. New file.
+[m[1;30m15:59:05.176    INFO:     ...c32mz_w1_eth_wifi_freertos\library\tcpip\ipv4.h Success. New file.
+[m[1;30m15:59:05.177    INFO:     ...c32mz_w1_eth_wifi_freertos\library\tcpip\ipv6.h Success. New file.
+[m[1;30m15:59:05.177    INFO:     ...c32mz_w1_eth_wifi_freertos\library\tcpip\lldp.h Success. New file.
+[m[1;30m15:59:05.177    INFO:     ...c32mz_w1_eth_wifi_freertos\library\tcpip\nbns.h Success. New file.
+[m[1;30m15:59:05.177    INFO:     ...ic32mz_w1_eth_wifi_freertos\library\tcpip\ndp.h Success. New file.
+[m[1;30m15:59:05.177    INFO:     ...c32mz_w1_eth_wifi_freertos\library\tcpip\smtp.h Success. New file.
+[m[1;30m15:59:05.177    INFO:     ...32mz_w1_eth_wifi_freertos\library\tcpip\smtpc.h Success. New file.
+[m[1;30m15:59:05.177    INFO:     ...c32mz_w1_eth_wifi_freertos\library\tcpip\snmp.h Success. New file.
+[m[1;30m15:59:05.177    INFO:     ...2mz_w1_eth_wifi_freertos\library\tcpip\snmpv3.h Success. New file.
+[m[1;30m15:59:05.177    INFO:     ...c32mz_w1_eth_wifi_freertos\library\tcpip\sntp.h Success. New file.
+[m[1;30m15:59:05.178    INFO:     ...mz_w1_eth_wifi_freertos\library\tcpip\src\arp.c Success. New file.
+[m[1;30m15:59:05.178    INFO:     ...h_wifi_freertos\library\tcpip\src\arp_manager.h Success. New file.
+[m[1;30m15:59:05.178    INFO:     ...h_wifi_freertos\library\tcpip\src\arp_private.h Success. New file.
+[m[1;30m15:59:05.178    INFO:     ...i_freertos\library\tcpip\src\berkeley_manager.h Success. New file.
+[m[1;30m15:59:05.178    INFO:     ...ifi_freertos\library\tcpip\src\common\helpers.h Success. New file.
+[m[1;30m15:59:05.178    INFO:     ...reertos\library\tcpip\src\common\sys_fs_shell.h Success. New file.
+[m[1;30m15:59:05.178    INFO:     ..._wifi_freertos\library\tcpip\src\ddns_manager.h Success. New file.
+[m[1;30m15:59:05.178    INFO:     ...z_w1_eth_wifi_freertos\library\tcpip\src\dhcp.c Success. New file.
+[m[1;30m15:59:05.178    INFO:     ..._wifi_freertos\library\tcpip\src\dhcp_manager.h Success. New file.
+[m[1;30m15:59:05.179    INFO:     ..._wifi_freertos\library\tcpip\src\dhcp_private.h Success. New file.
+[m[1;30m15:59:05.179    INFO:     ...reertos\library\tcpip\src\dhcp_server_manager.h Success. New file.
+[m[1;30m15:59:05.179    INFO:     ...reertos\library\tcpip\src\dhcp_server_private.h Success. New file.
+[m[1;30m15:59:05.179    INFO:     ...wifi_freertos\library\tcpip\src\dhcps_manager.h Success. New file.
+[m[1;30m15:59:05.179    INFO:     ...wifi_freertos\library\tcpip\src\dhcps_private.h Success. New file.
+[m[1;30m15:59:05.179    INFO:     ...ifi_freertos\library\tcpip\src\dhcpv6_manager.h Success. New file.
+[m[1;30m15:59:05.179    INFO:     ...ifi_freertos\library\tcpip\src\dhcpv6_private.h Success. New file.
+[m[1;30m15:59:05.179    INFO:     ...mz_w1_eth_wifi_freertos\library\tcpip\src\dns.c Success. New file.
+[m[1;30m15:59:05.179    INFO:     ...h_wifi_freertos\library\tcpip\src\dns_manager.h Success. New file.
+[m[1;30m15:59:05.179    INFO:     ...h_wifi_freertos\library\tcpip\src\dns_private.h Success. New file.
+[m[1;30m15:59:05.179    INFO:     ..._wifi_freertos\library\tcpip\src\dnss_manager.h Success. New file.
+[m[1;30m15:59:05.180    INFO:     ..._wifi_freertos\library\tcpip\src\dnss_private.h Success. New file.
+[m[1;30m15:59:05.180    INFO:     ...h_wifi_freertos\library\tcpip\src\ftp_manager.h Success. New file.
+[m[1;30m15:59:05.180    INFO:     ...h_wifi_freertos\library\tcpip\src\ftp_private.h Success. New file.
+[m[1;30m15:59:05.180    INFO:     ..._wifi_freertos\library\tcpip\src\ftpc_manager.h Success. New file.
+[m[1;30m15:59:05.180    INFO:     ..._wifi_freertos\library\tcpip\src\ftpc_private.h Success. New file.
+[m[1;30m15:59:05.180    INFO:     ..._eth_wifi_freertos\library\tcpip\src\hash_fnv.c Success. New file.
+[m[1;30m15:59:05.180    INFO:     ..._eth_wifi_freertos\library\tcpip\src\hash_fnv.h Success. New file.
+[m[1;30m15:59:05.180    INFO:     ...1_eth_wifi_freertos\library\tcpip\src\helpers.c Success. New file.
+[m[1;30m15:59:05.181    INFO:     ..._wifi_freertos\library\tcpip\src\http_manager.h Success. New file.
+[m[1;30m15:59:05.181    INFO:     ...i_freertos\library\tcpip\src\http_net_manager.h Success. New file.
+[m[1;30m15:59:05.181    INFO:     ...i_freertos\library\tcpip\src\http_net_private.h Success. New file.
+[m[1;30m15:59:05.181    INFO:     ..._wifi_freertos\library\tcpip\src\http_private.h Success. New file.
+[m[1;30m15:59:05.181    INFO:     ...z_w1_eth_wifi_freertos\library\tcpip\src\icmp.c Success. New file.
+[m[1;30m15:59:05.181    INFO:     ..._wifi_freertos\library\tcpip\src\icmp_manager.h Success. New file.
+[m[1;30m15:59:05.181    INFO:     ...ifi_freertos\library\tcpip\src\icmpv6_manager.h Success. New file.
+[m[1;30m15:59:05.181    INFO:     ..._wifi_freertos\library\tcpip\src\igmp_manager.h Success. New file.
+[m[1;30m15:59:05.181    INFO:     ..._wifi_freertos\library\tcpip\src\igmp_private.h Success. New file.
+[m[1;30m15:59:05.182    INFO:     ..._w1_eth_wifi_freertos\library\tcpip\src\iperf.c Success. New file.
+[m[1;30m15:59:05.182    INFO:     ...wifi_freertos\library\tcpip\src\iperf_manager.h Success. New file.
+[m[1;30m15:59:05.182    INFO:     ...z_w1_eth_wifi_freertos\library\tcpip\src\ipv4.c Success. New file.
+[m[1;30m15:59:05.182    INFO:     ..._wifi_freertos\library\tcpip\src\ipv4_manager.h Success. New file.
+[m[1;30m15:59:05.182    INFO:     ..._wifi_freertos\library\tcpip\src\ipv4_private.h Success. New file.
+[m[1;30m15:59:05.182    INFO:     ..._wifi_freertos\library\tcpip\src\ipv6_manager.h Success. New file.
+[m[1;30m15:59:05.182    INFO:     ..._wifi_freertos\library\tcpip\src\ipv6_private.h Success. New file.
+[m[1;30m15:59:05.182    INFO:     ...eth_wifi_freertos\library\tcpip\src\link_list.h Success. New file.
+[m[1;30m15:59:05.183    INFO:     ..._wifi_freertos\library\tcpip\src\lldp_manager.h Success. New file.
+[m[1;30m15:59:05.183    INFO:     ..._wifi_freertos\library\tcpip\src\lldp_private.h Success. New file.
+[m[1;30m15:59:05.183    INFO:     ..._eth_wifi_freertos\library\tcpip\src\lldp_tlv.h Success. New file.
+[m[1;30m15:59:05.183    INFO:     ..._wifi_freertos\library\tcpip\src\nbns_manager.h Success. New file.
+[m[1;30m15:59:05.183    INFO:     ...h_wifi_freertos\library\tcpip\src\ndp_manager.h Success. New file.
+[m[1;30m15:59:05.183    INFO:     ...h_wifi_freertos\library\tcpip\src\ndp_private.h Success. New file.
+[m[1;30m15:59:05.183    INFO:     ...w1_eth_wifi_freertos\library\tcpip\src\oahash.c Success. New file.
+[m[1;30m15:59:05.183    INFO:     ...w1_eth_wifi_freertos\library\tcpip\src\oahash.h Success. New file.
+[m[1;30m15:59:05.183    INFO:     ..._wifi_freertos\library\tcpip\src\smtp_manager.h Success. New file.
+[m[1;30m15:59:05.184    INFO:     ...wifi_freertos\library\tcpip\src\smtpc_manager.h Success. New file.
+[m[1;30m15:59:05.184    INFO:     ...wifi_freertos\library\tcpip\src\smtpc_private.h Success. New file.
+[m[1;30m15:59:05.184    INFO:     ..._wifi_freertos\library\tcpip\src\snmp_manager.h Success. New file.
+[m[1;30m15:59:05.184    INFO:     ..._wifi_freertos\library\tcpip\src\snmp_private.h Success. New file.
+[m[1;30m15:59:05.184    INFO:     ...ifi_freertos\library\tcpip\src\snmpv3_private.h Success. New file.
+[m[1;30m15:59:05.184    INFO:     ..._wifi_freertos\library\tcpip\src\sntp_manager.h Success. New file.
+[m[1;30m15:59:05.184    INFO:     ...mz_w1_eth_wifi_freertos\library\tcpip\src\tcp.c Success. New file.
+[m[1;30m15:59:05.184    INFO:     ...h_wifi_freertos\library\tcpip\src\tcp_manager.h Success. New file.
+[m[1;30m15:59:05.184    INFO:     ...h_wifi_freertos\library\tcpip\src\tcp_private.h Success. New file.
+[m[1;30m15:59:05.185    INFO:     ...ifi_freertos\library\tcpip\src\tcpip_announce.c Success. New file.
+[m[1;30m15:59:05.185    INFO:     ...rtos\library\tcpip\src\tcpip_announce_manager.h Success. New file.
+[m[1;30m15:59:05.185    INFO:     ...ifi_freertos\library\tcpip\src\tcpip_commands.c Success. New file.
+[m[1;30m15:59:05.185    INFO:     ...rtos\library\tcpip\src\tcpip_commands_manager.h Success. New file.
+[m[1;30m15:59:05.185    INFO:     ...i_freertos\library\tcpip\src\tcpip_heap_alloc.c Success. New file.
+[m[1;30m15:59:05.185    INFO:     ...i_freertos\library\tcpip\src\tcpip_heap_alloc.h Success. New file.
+[m[1;30m15:59:05.185    INFO:     ...reertos\library\tcpip\src\tcpip_heap_external.c Success. New file.
+[m[1;30m15:59:05.185    INFO:     ...i_freertos\library\tcpip\src\tcpip_helper_c32.S Success. New file.
+[m[1;30m15:59:05.206    INFO:     ...wifi_freertos\library\tcpip\src\tcpip_helpers.c Success. New file.
+[m[1;30m15:59:05.207    INFO:     ...ertos\library\tcpip\src\tcpip_helpers_private.h Success. New file.
+[m[1;30m15:59:05.208    INFO:     ...os\library\tcpip\src\tcpip_mac_bridge_manager.h Success. New file.
+[m[1;30m15:59:05.208    INFO:     ...os\library\tcpip\src\tcpip_mac_bridge_private.h Success. New file.
+[m[1;30m15:59:05.208    INFO:     ...wifi_freertos\library\tcpip\src\tcpip_manager.c Success. New file.
+[m[1;30m15:59:05.208    INFO:     ...ertos\library\tcpip\src\tcpip_manager_control.h Success. New file.
+[m[1;30m15:59:05.208    INFO:     ...eertos\library\tcpip\src\tcpip_module_manager.h Success. New file.
+[m[1;30m15:59:05.208    INFO:     ..._wifi_freertos\library\tcpip\src\tcpip_notify.c Success. New file.
+[m[1;30m15:59:05.208    INFO:     ..._wifi_freertos\library\tcpip\src\tcpip_notify.h Success. New file.
+[m[1;30m15:59:05.208    INFO:     ..._wifi_freertos\library\tcpip\src\tcpip_packet.c Success. New file.
+[m[1;30m15:59:05.208    INFO:     ..._wifi_freertos\library\tcpip\src\tcpip_packet.h Success. New file.
+[m[1;30m15:59:05.208    INFO:     ...wifi_freertos\library\tcpip\src\tcpip_private.h Success. New file.
+[m[1;30m15:59:05.208    INFO:     ...eertos\library\tcpip\src\tcpip_reboot_manager.h Success. New file.
+[m[1;30m15:59:05.209    INFO:     ...h_wifi_freertos\library\tcpip\src\tcpip_types.h Success. New file.
+[m[1;30m15:59:05.209    INFO:     ...w1_eth_wifi_freertos\library\tcpip\src\telnet.c Success. New file.
+[m[1;30m15:59:05.209    INFO:     ...ifi_freertos\library\tcpip\src\telnet_manager.h Success. New file.
+[m[1;30m15:59:05.209    INFO:     ...wifi_freertos\library\tcpip\src\tftpc_manager.h Success. New file.
+[m[1;30m15:59:05.209    INFO:     ...wifi_freertos\library\tcpip\src\tftpc_private.h Success. New file.
+[m[1;30m15:59:05.209    INFO:     ...wifi_freertos\library\tcpip\src\tftps_manager.h Success. New file.
+[m[1;30m15:59:05.209    INFO:     ...wifi_freertos\library\tcpip\src\tftps_private.h Success. New file.
+[m[1;30m15:59:05.209    INFO:     ...mz_w1_eth_wifi_freertos\library\tcpip\src\udp.c Success. New file.
+[m[1;30m15:59:05.209    INFO:     ...h_wifi_freertos\library\tcpip\src\udp_manager.h Success. New file.
+[m[1;30m15:59:05.210    INFO:     ...h_wifi_freertos\library\tcpip\src\udp_private.h Success. New file.
+[m[1;30m15:59:05.210    INFO:     ...i_freertos\library\tcpip\src\zero_conf_helper.h Success. New file.
+[m[1;30m15:59:05.210    INFO:     ...ibrary\tcpip\src\zero_conf_link_local_private.h Success. New file.
+[m[1;30m15:59:05.210    INFO:     ..._freertos\library\tcpip\src\zero_conf_manager.h Success. New file.
+[m[1;30m15:59:05.210    INFO:     ...ic32mz_w1_eth_wifi_freertos\library\tcpip\tcp.h Success. New file.
+[m[1;30m15:59:05.210    INFO:     ...32mz_w1_eth_wifi_freertos\library\tcpip\tcpip.h Success. New file.
+[m[1;30m15:59:05.210    INFO:     ...th_wifi_freertos\library\tcpip\tcpip_announce.h Success. New file.
+[m[1;30m15:59:05.211    INFO:     ...th_wifi_freertos\library\tcpip\tcpip_commands.h Success. New file.
+[m[1;30m15:59:05.211    INFO:     ...ifi_freertos\library\tcpip\tcpip_common_ports.h Success. New file.
+[m[1;30m15:59:05.211    INFO:     ...th_wifi_freertos\library\tcpip\tcpip_ethernet.h Success. New file.
+[m[1;30m15:59:05.211    INFO:     ...w1_eth_wifi_freertos\library\tcpip\tcpip_heap.h Success. New file.
+[m[1;30m15:59:05.211    INFO:     ...eth_wifi_freertos\library\tcpip\tcpip_helpers.h Success. New file.
+[m[1;30m15:59:05.211    INFO:     ..._w1_eth_wifi_freertos\library\tcpip\tcpip_mac.h Success. New file.
+[m[1;30m15:59:05.211    INFO:     ..._wifi_freertos\library\tcpip\tcpip_mac_bridge.h Success. New file.
+[m[1;30m15:59:05.212    INFO:     ..._wifi_freertos\library\tcpip\tcpip_mac_object.h Success. New file.
+[m[1;30m15:59:05.212    INFO:     ...eth_wifi_freertos\library\tcpip\tcpip_manager.h Success. New file.
+[m[1;30m15:59:05.212    INFO:     ..._eth_wifi_freertos\library\tcpip\tcpip_reboot.h Success. New file.
+[m[1;30m15:59:05.212    INFO:     ...2mz_w1_eth_wifi_freertos\library\tcpip\telnet.h Success. New file.
+[m[1;30m15:59:05.212    INFO:     ...32mz_w1_eth_wifi_freertos\library\tcpip\tftpc.h Success. New file.
+[m[1;30m15:59:05.212    INFO:     ...32mz_w1_eth_wifi_freertos\library\tcpip\tftps.h Success. New file.
+[m[1;30m15:59:05.212    INFO:     ...ic32mz_w1_eth_wifi_freertos\library\tcpip\udp.h Success. New file.
+[m[1;30m15:59:05.213    INFO:     ...i_freertos\library\tcpip\zero_conf_link_local.h Success. New file.
+[m[1;30m15:59:05.214    INFO:     ...reertos\library\tcpip\zero_conf_multicast_dns.h Success. New file.
+[m[1;30m15:59:05.214    INFO:     ...z_w1_eth_wifi_freertos\net_pres\pres\net_pres.h Success. New file.
+[m[1;30m15:59:05.214    INFO:     ...fi_freertos\net_pres\pres\net_pres_cert_store.c Success. New file.
+[m[1;30m15:59:05.214    INFO:     ...ifi_freertos\net_pres\pres\net_pres_certstore.h Success. New file.
+[m[1;30m15:59:05.214    INFO:     ...wifi_freertos\net_pres\pres\net_pres_enc_glue.c Success. New file.
+[m[1;30m15:59:05.215    INFO:     ...wifi_freertos\net_pres\pres\net_pres_enc_glue.h Success. New file.
+[m[1;30m15:59:05.215    INFO:     ...\net_pres\pres\net_pres_encryptionproviderapi.h Success. New file.
+[m[1;30m15:59:05.215    INFO:     ...ifi_freertos\net_pres\pres\net_pres_socketapi.h Success. New file.
+[m[1;30m15:59:05.215    INFO:     ...os\net_pres\pres\net_pres_socketapiconversion.h Success. New file.
+[m[1;30m15:59:05.215    INFO:     ..._freertos\net_pres\pres\net_pres_transportapi.h Success. New file.
+[m[1;30m15:59:05.215    INFO:     ..._eth_wifi_freertos\net_pres\pres\src\net_pres.c Success. New file.
+[m[1;30m15:59:05.215    INFO:     ...ifi_freertos\net_pres\pres\src\net_pres_local.h Success. New file.
+[m[1;30m15:59:05.215    INFO:     ...config\pic32mz_w1_eth_wifi_freertos\osal\osal.h Success. New file.
+[m[1;30m15:59:05.215    INFO:     ...mz_w1_eth_wifi_freertos\osal\osal_definitions.h Success. New file.
+[m[1;30m15:59:05.215    INFO:     ...c32mz_w1_eth_wifi_freertos\osal\osal_freertos.c Success. New file.
+[m[1;30m15:59:05.215    INFO:     ...c32mz_w1_eth_wifi_freertos\osal\osal_freertos.h Success. New file.
+[m[1;30m15:59:05.215    INFO:     ...ic32mz_w1_eth_wifi_freertos\p32MZ1025W104132.ld Success. New file.
+[m[1;30m15:59:05.215    INFO:     ..._w1_eth_wifi_freertos\peripheral\clk\plib_clk.c Success. New file.
+[m[1;30m15:59:05.216    INFO:     ..._w1_eth_wifi_freertos\peripheral\clk\plib_clk.h Success. New file.
+[m[1;30m15:59:05.216    INFO:     ..._freertos\peripheral\coretimer\plib_coretimer.c Success. New file.
+[m[1;30m15:59:05.216    INFO:     ..._freertos\peripheral\coretimer\plib_coretimer.h Success. New file.
+[m[1;30m15:59:05.216    INFO:     ...1_eth_wifi_freertos\peripheral\evic\plib_evic.c Success. New file.
+[m[1;30m15:59:05.216    INFO:     ...1_eth_wifi_freertos\peripheral\evic\plib_evic.h Success. New file.
+[m[1;30m15:59:05.216    INFO:     ...1_eth_wifi_freertos\peripheral\gpio\plib_gpio.c Success. New file.
+[m[1;30m15:59:05.216    INFO:     ...1_eth_wifi_freertos\peripheral\gpio\plib_gpio.h Success. New file.
+[m[1;30m15:59:05.216    INFO:     ..._w1_eth_wifi_freertos\peripheral\nvm\plib_nvm.c Success. New file.
+[m[1;30m15:59:05.216    INFO:     ..._w1_eth_wifi_freertos\peripheral\nvm\plib_nvm.h Success. New file.
+[m[1;30m15:59:05.217    INFO:     ..._eth_wifi_freertos\peripheral\uart\plib_uart1.c Success. New file.
+[m[1;30m15:59:05.217    INFO:     ..._eth_wifi_freertos\peripheral\uart\plib_uart1.h Success. New file.
+[m[1;30m15:59:05.217    INFO:     ..._eth_wifi_freertos\peripheral\uart\plib_uart2.c Success. New file.
+[m[1;30m15:59:05.217    INFO:     ..._eth_wifi_freertos\peripheral\uart\plib_uart2.h Success. New file.
+[m[1;30m15:59:05.217    INFO:     ..._eth_wifi_freertos\peripheral\uart\plib_uart3.c Success. New file.
+[m[1;30m15:59:05.217    INFO:     ..._eth_wifi_freertos\peripheral\uart\plib_uart3.h Success. New file.
+[m[1;30m15:59:05.217    INFO:     ...ifi_freertos\peripheral\uart\plib_uart_common.h Success. New file.
+[m[1;30m15:59:05.217    INFO:     ...\config\pic32mz_w1_eth_wifi_freertos\pmu_init.c Success. New file.
+[m[1;30m15:59:05.217    INFO:     ...c32mz_w1_eth_wifi_freertos\stdio\xc32_monitor.c Success. New file.
+[m[1;30m15:59:05.217    INFO:     ...config\pic32mz_w1_eth_wifi_freertos\sys_tasks.h Success. New file.
+[m[1;30m15:59:05.218    INFO:     ..._wifi_freertos\system\command\src\sys_command.c Success. New file.
+[m[1;30m15:59:05.218    INFO:     ..._eth_wifi_freertos\system\command\sys_command.h Success. New file.
+[m[1;30m15:59:05.218    INFO:     ..._wifi_freertos\system\console\src\sys_console.c Success. New file.
+[m[1;30m15:59:05.218    INFO:     ...freertos\system\console\src\sys_console_local.h Success. New file.
+[m[1;30m15:59:05.218    INFO:     ..._freertos\system\console\src\sys_console_uart.c Success. New file.
+[m[1;30m15:59:05.228    INFO:     ..._freertos\system\console\src\sys_console_uart.h Success. New file.
+[m[1;30m15:59:05.229    INFO:     ...stem\console\src\sys_console_uart_definitions.h Success. New file.
+[m[1;30m15:59:05.229    INFO:     ...eertos\system\console\src\sys_console_usb_cdc.c Success. New file.
+[m[1;30m15:59:05.229    INFO:     ...eertos\system\console\src\sys_console_usb_cdc.h Success. New file.
+[m[1;30m15:59:05.229    INFO:     ...m\console\src\sys_console_usb_cdc_definitions.h Success. New file.
+[m[1;30m15:59:05.229    INFO:     ..._eth_wifi_freertos\system\console\sys_console.h Success. New file.
+[m[1;30m15:59:05.229    INFO:     ..._eth_wifi_freertos\system\debug\src\sys_debug.c Success. New file.
+[m[1;30m15:59:05.229    INFO:     ...ifi_freertos\system\debug\src\sys_debug_local.h Success. New file.
+[m[1;30m15:59:05.229    INFO:     ...z_w1_eth_wifi_freertos\system\debug\sys_debug.h Success. New file.
+[m[1;30m15:59:05.230    INFO:     ...z_w1_eth_wifi_freertos\system\int\src\sys_int.c Success. New file.
+[m[1;30m15:59:05.230    INFO:     ...c32mz_w1_eth_wifi_freertos\system\int\sys_int.h Success. New file.
+[m[1;30m15:59:05.230    INFO:     ..._eth_wifi_freertos\system\int\sys_int_mapping.h Success. New file.
+[m[1;30m15:59:05.230    INFO:     ...z_w1_eth_wifi_freertos\system\reset\sys_reset.c Success. New file.
+[m[1;30m15:59:05.230    INFO:     ...z_w1_eth_wifi_freertos\system\reset\sys_reset.h Success. New file.
+[m[1;30m15:59:05.230    INFO:     ...th_wifi_freertos\system\sys_random_h2_adapter.c Success. New file.
+[m[1;30m15:59:05.230    INFO:     ...th_wifi_freertos\system\sys_random_h2_adapter.h Success. New file.
+[m[1;30m15:59:05.230    INFO:     ..._eth_wifi_freertos\system\sys_time_h2_adapter.c Success. New file.
+[m[1;30m15:59:05.230    INFO:     ..._eth_wifi_freertos\system\sys_time_h2_adapter.h Success. New file.
+[m[1;30m15:59:05.231    INFO:     ...ig\pic32mz_w1_eth_wifi_freertos\system\system.h Success. New file.
+[m[1;30m15:59:05.231    INFO:     ...2mz_w1_eth_wifi_freertos\system\system_common.h Success. New file.
+[m[1;30m15:59:05.231    INFO:     ...2mz_w1_eth_wifi_freertos\system\system_module.h Success. New file.
+[m[1;30m15:59:05.231    INFO:     ...w1_eth_wifi_freertos\system\time\src\sys_time.c Success. New file.
+[m[1;30m15:59:05.231    INFO:     ..._wifi_freertos\system\time\src\sys_time_local.h Success. New file.
+[m[1;30m15:59:05.231    INFO:     ...2mz_w1_eth_wifi_freertos\system\time\sys_time.h Success. New file.
+[m[1;30m15:59:05.231    INFO:     ...ifi_freertos\system\time\sys_time_definitions.h Success. New file.
+[m[1;30m15:59:05.231    INFO:     ...c32mz_w1_eth_wifi_freertos\system\tmr\sys_tmr.h Success. New file.
+[m[1;30m15:59:05.231    INFO:     ...w1_eth_wifi_freertos\system\wifi\src\sys_wifi.c Success. New file.
+[m[1;30m15:59:05.231    INFO:     ...2mz_w1_eth_wifi_freertos\system\wifi\sys_wifi.h Success. New file.
+[m[1;30m15:59:05.231    INFO:     ...ifi_freertos\system\wifiprov\src\sys_wifiprov.c Success. New file.
+[m[1;30m15:59:05.232    INFO:     ...reertos\system\wifiprov\src\sys_wifiprov_json.c Success. New file.
+[m[1;30m15:59:05.232    INFO:     ...th_wifi_freertos\system\wifiprov\sys_wifiprov.h Success. New file.
+[m[1;30m15:59:05.232    INFO:     ...fi_freertos\system\wifiprov\sys_wifiprov_json.h Success. New file.
+[m[1;30m15:59:05.232    INFO:     ...ig\pic32mz_w1_eth_wifi_freertos\system_config.h Success. New file.
+[m[1;30m15:59:05.232    INFO:     ...c32mz_w1_eth_wifi_freertos\system_definitions.h Success. New file.
+[m[1;30m15:59:05.232    INFO:     ..\src\config\pic32mz_w1_eth_wifi_freertos\tasks.c Success. New file.
+[m[1;30m15:59:05.232    INFO:     ...32mz_w1_eth_wifi_freertos\toolchain_specifics.h Success. New file.
+[m[1;30m15:59:05.232    INFO:     ...c32mz_w1_eth_wifi_freertos\usb\src\usb_device.c Success. New file.
+[m[1;30m15:59:05.232    INFO:     ...z_w1_eth_wifi_freertos\usb\src\usb_device_cdc.c Success. New file.
+[m[1;30m15:59:05.232    INFO:     ..._eth_wifi_freertos\usb\src\usb_device_cdc_acm.c Success. New file.
+[m[1;30m15:59:05.232    INFO:     ...th_wifi_freertos\usb\src\usb_device_cdc_local.h Success. New file.
+[m[1;30m15:59:05.233    INFO:     ...i_freertos\usb\src\usb_device_function_driver.h Success. New file.
+[m[1;30m15:59:05.233    INFO:     ...w1_eth_wifi_freertos\usb\src\usb_device_local.h Success. New file.
+[m[1;30m15:59:05.233    INFO:     ..._eth_wifi_freertos\usb\src\usb_device_mapping.h Success. New file.
+[m[1;30m15:59:05.233    INFO:     ...fi_freertos\usb\src\usb_external_dependencies.h Success. New file.
+[m[1;30m15:59:05.233    INFO:     ...nfig\pic32mz_w1_eth_wifi_freertos\usb\usb_cdc.h Success. New file.
+[m[1;30m15:59:05.233    INFO:     ...ic32mz_w1_eth_wifi_freertos\usb\usb_chapter_9.h Success. New file.
+[m[1;30m15:59:05.233    INFO:     ...g\pic32mz_w1_eth_wifi_freertos\usb\usb_common.h Success. New file.
+[m[1;30m15:59:05.233    INFO:     ...g\pic32mz_w1_eth_wifi_freertos\usb\usb_device.h Success. New file.
+[m[1;30m15:59:05.233    INFO:     ...c32mz_w1_eth_wifi_freertos\usb\usb_device_cdc.h Success. New file.
+[m[1;30m15:59:05.233    INFO:     ...fig\pic32mz_w1_eth_wifi_freertos\usb\usb_host.h Success. New file.
+[m[1;30m15:59:05.233    INFO:     ..._eth_wifi_freertos\usb\usb_host_client_driver.h Success. New file.
+[m[1;30m15:59:05.233    INFO:     ..._eth_wifi_freertos\usb\usb_host_hub_interface.h Success. New file.
+[m[1;30m15:59:05.234    INFO:     ...nfig\pic32mz_w1_eth_wifi_freertos\usb\usb_hub.h Success. New file.
+[m[1;30m15:59:05.234    INFO:     ...2mz_w1_eth_wifi_freertos\usb_device_init_data.c Success. New file.
+[m[1;30m15:59:05.234    INFO:     ..\src\config\pic32mz_w1_eth_wifi_freertos\user.h  Success. New file.
+[m[1;30m15:59:05.234    INFO:     ..\src\main.c                                      Success.
+[m[1;30m15:59:05.234    INFO:     ..\src\monitor.c                                   Success.
+[m[1;30m15:59:05.234    INFO:     ..\src\monitor.h                                   Success.
+[m[1;30m15:59:05.234    INFO:     ...ird_party\rtos\FreeRTOS\Source\FreeRTOS_tasks.c Success. New file.
+[m[1;30m15:59:05.234    INFO:     ..\src\third_party\rtos\FreeRTOS\Source\croutine.c Success. New file.
+[m[1;30m15:59:05.234    INFO:     ...third_party\rtos\FreeRTOS\Source\event_groups.c Success. New file.
+[m[1;30m15:59:05.235    INFO:     ...d_party\rtos\FreeRTOS\Source\include\FreeRTOS.h Success. New file.
+[m[1;30m15:59:05.235    INFO:     ...d_party\rtos\FreeRTOS\Source\include\croutine.h Success. New file.
+[m[1;30m15:59:05.235    INFO:     ...reeRTOS\Source\include\deprecated_definitions.h Success. New file.
+[m[1;30m15:59:05.235    INFO:     ...rty\rtos\FreeRTOS\Source\include\event_groups.h Success. New file.
+[m[1;30m15:59:05.235    INFO:     ...third_party\rtos\FreeRTOS\Source\include\list.h Success. New file.
+[m[1;30m15:59:05.235    INFO:     ...y\rtos\FreeRTOS\Source\include\message_buffer.h Success. New file.
+[m[1;30m15:59:05.236    INFO:     ...y\rtos\FreeRTOS\Source\include\mpu_prototypes.h Success. New file.
+[m[1;30m15:59:05.236    INFO:     ...rty\rtos\FreeRTOS\Source\include\mpu_wrappers.h Success. New file.
+[m[1;30m15:59:05.236    INFO:     ...d_party\rtos\FreeRTOS\Source\include\portable.h Success. New file.
+[m[1;30m15:59:05.236    INFO:     ...d_party\rtos\FreeRTOS\Source\include\projdefs.h Success. New file.
+[m[1;30m15:59:05.236    INFO:     ...hird_party\rtos\FreeRTOS\Source\include\queue.h Success. New file.
+[m[1;30m15:59:05.236    INFO:     ...ird_party\rtos\FreeRTOS\Source\include\semphr.h Success. New file.
+[m[1;30m15:59:05.236    INFO:     ...rty\rtos\FreeRTOS\Source\include\stack_macros.h Success. New file.
+[m[1;30m15:59:05.236    INFO:     ...ty\rtos\FreeRTOS\Source\include\stream_buffer.h Success. New file.
+[m[1;30m15:59:05.236    INFO:     ...third_party\rtos\FreeRTOS\Source\include\task.h Success. New file.
+[m[1;30m15:59:05.237    INFO:     ...ird_party\rtos\FreeRTOS\Source\include\timers.h Success. New file.
+[m[1;30m15:59:05.237    INFO:     ..\src\third_party\rtos\FreeRTOS\Source\list.c     Success. New file.
+[m[1;30m15:59:05.237    INFO:     ...TOS\Source\portable\MPLAB\PIC32MZ\ISR_Support.h Success. New file.
+[m[1;30m15:59:05.237    INFO:     ...s\FreeRTOS\Source\portable\MPLAB\PIC32MZ\port.c Success. New file.
+[m[1;30m15:59:05.237    INFO:     ...eeRTOS\Source\portable\MPLAB\PIC32MZ\port_asm.S Success. New file.
+[m[1;30m15:59:05.237    INFO:     ...eRTOS\Source\portable\MPLAB\PIC32MZ\portmacro.h Success. New file.
+[m[1;30m15:59:05.237    INFO:     ...\rtos\FreeRTOS\Source\portable\MemMang\heap_4.c Success. New file.
+[m[1;30m15:59:05.237    INFO:     ..\src\third_party\rtos\FreeRTOS\Source\queue.c    Success. New file.
+[m[1;30m15:59:05.237    INFO:     ...hird_party\rtos\FreeRTOS\Source\stream_buffer.c Success. New file.
+[m[1;30m15:59:05.237    INFO:     ..\src\third_party\rtos\FreeRTOS\Source\timers.c   Success. New file.
+[m[1;30m15:59:05.238    INFO:     ..\src\third_party\wolfssl\wolfssl\certs_test.h    Success. New file.
+[m[1;30m15:59:05.238    INFO:     ..\src\third_party\wolfssl\wolfssl\wolfcrypt\aes.h Success. New file.
+[m[1;30m15:59:05.238    INFO:     ...rc\third_party\wolfssl\wolfssl\wolfcrypt\arc4.h Success. New file.
+[m[1;30m15:59:05.238    INFO:     ..\src\third_party\wolfssl\wolfssl\wolfcrypt\asn.h Success. New file.
+[m[1;30m15:59:05.238    INFO:     ...rd_party\wolfssl\wolfssl\wolfcrypt\asn_public.h Success. New file.
+[m[1;30m15:59:05.238    INFO:     ...d_party\wolfssl\wolfssl\wolfcrypt\blake2-impl.h Success. New file.
+[m[1;30m15:59:05.238    INFO:     ...rd_party\wolfssl\wolfssl\wolfcrypt\blake2-int.h Success. New file.
+[m[1;30m15:59:05.238    INFO:     ...\third_party\wolfssl\wolfssl\wolfcrypt\blake2.h Success. New file.
+[m[1;30m15:59:05.238    INFO:     ...hird_party\wolfssl\wolfssl\wolfcrypt\camellia.h Success. New file.
+[m[1;30m15:59:05.238    INFO:     ...y\wolfssl\wolfssl\wolfcrypt\chacha20_poly1305.h Success. New file.
+[m[1;30m15:59:05.238    INFO:     ...\third_party\wolfssl\wolfssl\wolfcrypt\chacha.h Success. New file.
+[m[1;30m15:59:05.239    INFO:     ...rc\third_party\wolfssl\wolfssl\wolfcrypt\cmac.h Success. New file.
+[m[1;30m15:59:05.239    INFO:     ...\third_party\wolfssl\wolfssl\wolfcrypt\coding.h Success. New file.
+[m[1;30m15:59:05.239    INFO:     ...hird_party\wolfssl\wolfssl\wolfcrypt\compress.h Success. New file.
+[m[1;30m15:59:05.239    INFO:     ...c\third_party\wolfssl\wolfssl\wolfcrypt\cpuid.h Success. New file.
+[m[1;30m15:59:05.239    INFO:     ...hird_party\wolfssl\wolfssl\wolfcrypt\cryptocb.h Success. New file.
+[m[1;30m15:59:05.239    INFO:     ...hird_party\wolfssl\wolfssl\wolfcrypt\curve448.h Success. New file.
+[m[1;30m15:59:05.239    INFO:     ...rd_party\wolfssl\wolfssl\wolfcrypt\curve25519.h Success. New file.
+[m[1;30m15:59:05.239    INFO:     ...rc\third_party\wolfssl\wolfssl\wolfcrypt\des3.h Success. New file.
+[m[1;30m15:59:05.239    INFO:     ..\src\third_party\wolfssl\wolfssl\wolfcrypt\dh.h  Success. New file.
+[m[1;30m15:59:05.239    INFO:     ..\src\third_party\wolfssl\wolfssl\wolfcrypt\dsa.h Success. New file.
+[m[1;30m15:59:05.240    INFO:     ..\src\third_party\wolfssl\wolfssl\wolfcrypt\ecc.h Success. New file.
+[m[1;30m15:59:05.240    INFO:     ...c\third_party\wolfssl\wolfssl\wolfcrypt\eccsi.h Success. New file.
+[m[1;30m15:59:05.240    INFO:     ...c\third_party\wolfssl\wolfssl\wolfcrypt\ed448.h Success. New file.
+[m[1;30m15:59:05.240    INFO:     ...third_party\wolfssl\wolfssl\wolfcrypt\ed25519.h Success. New file.
+[m[1;30m15:59:05.240    INFO:     ...d_party\wolfssl\wolfssl\wolfcrypt\error-crypt.h Success. New file.
+[m[1;30m15:59:05.240    INFO:     ...\third_party\wolfssl\wolfssl\wolfcrypt\falcon.h Success. New file.
+[m[1;30m15:59:05.240    INFO:     ...\third_party\wolfssl\wolfssl\wolfcrypt\fe_448.h Success. New file.
+[m[1;30m15:59:05.240    INFO:     ...party\wolfssl\wolfssl\wolfcrypt\fe_operations.h Success. New file.
+[m[1;30m15:59:05.240    INFO:     ...ird_party\wolfssl\wolfssl\wolfcrypt\fips_test.h Success. New file.
+[m[1;30m15:59:05.240    INFO:     ...\third_party\wolfssl\wolfssl\wolfcrypt\ge_448.h Success. New file.
+[m[1;30m15:59:05.241    INFO:     ...party\wolfssl\wolfssl\wolfcrypt\ge_operations.h Success. New file.
+[m[1;30m15:59:05.241    INFO:     ...rc\third_party\wolfssl\wolfssl\wolfcrypt\hash.h Success. New file.
+[m[1;30m15:59:05.241    INFO:     ...rc\third_party\wolfssl\wolfssl\wolfcrypt\hmac.h Success. New file.
+[m[1;30m15:59:05.241    INFO:     ...third_party\wolfssl\wolfssl\wolfcrypt\integer.h Success. New file.
+[m[1;30m15:59:05.241    INFO:     ..\src\third_party\wolfssl\wolfssl\wolfcrypt\kdf.h Success. New file.
+[m[1;30m15:59:05.241    INFO:     ...third_party\wolfssl\wolfssl\wolfcrypt\logging.h Success. New file.
+[m[1;30m15:59:05.241    INFO:     ..\src\third_party\wolfssl\wolfssl\wolfcrypt\md2.h Success. New file.
+[m[1;30m15:59:05.241    INFO:     ..\src\third_party\wolfssl\wolfssl\wolfcrypt\md4.h Success. New file.
+[m[1;30m15:59:05.241    INFO:     ..\src\third_party\wolfssl\wolfssl\wolfcrypt\md5.h Success. New file.
+[m[1;30m15:59:05.241    INFO:     ...ird_party\wolfssl\wolfssl\wolfcrypt\mem_track.h Success. New file.
+[m[1;30m15:59:05.242    INFO:     ...\third_party\wolfssl\wolfssl\wolfcrypt\memory.h Success. New file.
+[m[1;30m15:59:05.242    INFO:     ...rc\third_party\wolfssl\wolfssl\wolfcrypt\misc.h Success. New file.
+[m[1;30m15:59:05.242    INFO:     ...ird_party\wolfssl\wolfssl\wolfcrypt\mpi_class.h Success. New file.
+[m[1;30m15:59:05.242    INFO:     ...arty\wolfssl\wolfssl\wolfcrypt\mpi_superclass.h Success. New file.
+[m[1;30m15:59:05.242    INFO:     ...c\third_party\wolfssl\wolfssl\wolfcrypt\pkcs7.h Success. New file.
+[m[1;30m15:59:05.242    INFO:     ...\third_party\wolfssl\wolfssl\wolfcrypt\pkcs11.h Success. New file.
+[m[1;30m15:59:05.242    INFO:     ...\third_party\wolfssl\wolfssl\wolfcrypt\pkcs12.h Success. New file.
+[m[1;30m15:59:05.242    INFO:     ...hird_party\wolfssl\wolfssl\wolfcrypt\poly1305.h Success. New file.
+[m[1;30m15:59:05.242    INFO:     ...wolfssl\wolfcrypt\port\pic32\CryptoLib_CRT_pb.h Success. New file.
+[m[1;30m15:59:05.242    INFO:     ...\wolfcrypt\port\pic32\CryptoLib_ClearFlags_pb.h Success. New file.
+[m[1;30m15:59:05.242    INFO:     ...olfssl\wolfcrypt\port\pic32\CryptoLib_Comp_pb.h Success. New file.
+[m[1;30m15:59:05.243    INFO:     ...sl\wolfcrypt\port\pic32\CryptoLib_CondCopy_pb.h Success. New file.
+[m[1;30m15:59:05.243    INFO:     ...wolfssl\wolfcrypt\port\pic32\CryptoLib_Div_pb.h Success. New file.
+[m[1;30m15:59:05.243    INFO:     ...fssl\wolfcrypt\port\pic32\CryptoLib_ExpMod_pb.h Success. New file.
+[m[1;30m15:59:05.243    INFO:     ...sl\wolfcrypt\port\pic32\CryptoLib_FastCopy_pb.h Success. New file.
+[m[1;30m15:59:05.243    INFO:     ...olfssl\wolfcrypt\port\pic32\CryptoLib_Fill_pb.h Success. New file.
+[m[1;30m15:59:05.243    INFO:     ...lfssl\wolfcrypt\port\pic32\CryptoLib_Fmult_pb.h Success. New file.
+[m[1;30m15:59:05.243    INFO:     ...wolfssl\wolfcrypt\port\pic32\CryptoLib_GCD_pb.h Success. New file.
+[m[1;30m15:59:05.243    INFO:     ...l\wolfcrypt\port\pic32\CryptoLib_GF2NEcDsa_pb.h Success. New file.
+[m[1;30m15:59:05.243    INFO:     ...\wolfcrypt\port\pic32\CryptoLib_GF2NEccAdd_pb.h Success. New file.
+[m[1;30m15:59:05.243    INFO:     ...wolfcrypt\port\pic32\CryptoLib_GF2NEccConv_pb.h Success. New file.
+[m[1;30m15:59:05.243    INFO:     ...\wolfcrypt\port\pic32\CryptoLib_GF2NEccDbl_pb.h Success. New file.
+[m[1;30m15:59:05.244    INFO:     ...\wolfcrypt\port\pic32\CryptoLib_GF2NEccMul_pb.h Success. New file.
+[m[1;30m15:59:05.244    INFO:     ...sl\wolfcrypt\port\pic32\CryptoLib_Hardware_pb.h Success. New file.
+[m[1;30m15:59:05.244    INFO:     ...ssl\wolfcrypt\port\pic32\CryptoLib_Headers_pb.h Success. New file.
+[m[1;30m15:59:05.244    INFO:     ...l\wolfcrypt\port\pic32\CryptoLib_JumpTable_pb.h Success. New file.
+[m[1;30m15:59:05.244    INFO:     ...sl\wolfcrypt\port\pic32\CryptoLib_PrimeGen_pb.h Success. New file.
+[m[1;30m15:59:05.244    INFO:     ...\wolfssl\wolfcrypt\port\pic32\CryptoLib_Rc_pb.h Success. New file.
+[m[1;30m15:59:05.244    INFO:     ...fssl\wolfcrypt\port\pic32\CryptoLib_RedMod_pb.h Success. New file.
+[m[1;30m15:59:05.244    INFO:     ...wolfssl\wolfcrypt\port\pic32\CryptoLib_Rng_pb.h Success. New file.
+[m[1;30m15:59:05.244    INFO:     ...sl\wolfcrypt\port\pic32\CryptoLib_SelfTest_pb.h Success. New file.
+[m[1;30m15:59:05.244    INFO:     ...sl\wolfcrypt\port\pic32\CryptoLib_Services_pb.h Success. New file.
+[m[1;30m15:59:05.245    INFO:     ...lfssl\wolfcrypt\port\pic32\CryptoLib_Smult_pb.h Success. New file.
+[m[1;30m15:59:05.245    INFO:     ...fssl\wolfcrypt\port\pic32\CryptoLib_Square_pb.h Success. New file.
+[m[1;30m15:59:05.245    INFO:     ...olfssl\wolfcrypt\port\pic32\CryptoLib_Swap_pb.h Success. New file.
+[m[1;30m15:59:05.245    INFO:     ...ssl\wolfcrypt\port\pic32\CryptoLib_ZpEcDsa_pb.h Success. New file.
+[m[1;30m15:59:05.245    INFO:     ...wolfcrypt\port\pic32\CryptoLib_ZpEccAddSub_pb.h Success. New file.
+[m[1;30m15:59:05.245    INFO:     ...sl\wolfcrypt\port\pic32\CryptoLib_ZpEccAdd_pb.h Success. New file.
+[m[1;30m15:59:05.245    INFO:     ...l\wolfcrypt\port\pic32\CryptoLib_ZpEccConv_pb.h Success. New file.
+[m[1;30m15:59:05.245    INFO:     ...sl\wolfcrypt\port\pic32\CryptoLib_ZpEccDbl_pb.h Success. New file.
+[m[1;30m15:59:05.245    INFO:     ...sl\wolfcrypt\port\pic32\CryptoLib_ZpEccMul_pb.h Success. New file.
+[m[1;30m15:59:05.246    INFO:     ...ypt\port\pic32\CryptoLib_ZpEccQuickDualMul_pb.h Success. New file.
+[m[1;30m15:59:05.246    INFO:     ...\wolfssl\wolfcrypt\port\pic32\CryptoLib_cf_pb.h Success. New file.
+[m[1;30m15:59:05.246    INFO:     ...ssl\wolfcrypt\port\pic32\CryptoLib_mapping_pb.h Success. New file.
+[m[1;30m15:59:05.246    INFO:     ...ssl\wolfcrypt\port\pic32\CryptoLib_typedef_pb.h Success. New file.
+[m[1;30m15:59:05.246    INFO:     ...ssl\wolfssl\wolfcrypt\port\pic32\crypt_aes_hw.h Success. New file.
+[m[1;30m15:59:05.246    INFO:     ...\wolfssl\wolfcrypt\port\pic32\crypt_aes_hwInt.h Success. New file.
+[m[1;30m15:59:05.246    INFO:     ...olfssl\wolfcrypt\port\pic32\crypt_aes_sam6149.h Success. New file.
+[m[1;30m15:59:05.246    INFO:     ...\wolfssl\wolfcrypt\port\pic32\crypt_aes_u2238.h Success. New file.
+[m[1;30m15:59:05.246    INFO:     ...olfssl\wolfcrypt\port\pic32\crypt_crya_saml11.h Success. New file.
+[m[1;30m15:59:05.247    INFO:     ...wolfssl\wolfcrypt\port\pic32\crypt_ecc_ba414e.h Success. New file.
+[m[1;30m15:59:05.247    INFO:     ...\wolfssl\wolfcrypt\port\pic32\crypt_ecc_pukcl.h Success. New file.
+[m[1;30m15:59:05.247    INFO:     ...\wolfcrypt\port\pic32\crypt_pukcl_definitions.h Success. New file.
+[m[1;30m15:59:05.247    INFO:     ...sl\wolfcrypt\port\pic32\crypt_pukcl_functions.h Success. New file.
+[m[1;30m15:59:05.247    INFO:     ...ssl\wolfssl\wolfcrypt\port\pic32\crypt_rng_hw.h Success. New file.
+[m[1;30m15:59:05.247    INFO:     ...\wolfssl\wolfcrypt\port\pic32\crypt_rsa_pukcl.h Success. New file.
+[m[1;30m15:59:05.247    INFO:     ...sl\wolfssl\wolfcrypt\port\pic32\crypt_sha1_hw.h Success. New file.
+[m[1;30m15:59:05.247    INFO:     ...\wolfssl\wolfcrypt\port\pic32\crypt_sha224_hw.h Success. New file.
+[m[1;30m15:59:05.247    INFO:     ...\wolfssl\wolfcrypt\port\pic32\crypt_sha256_hw.h Success. New file.
+[m[1;30m15:59:05.247    INFO:     ...\wolfssl\wolfcrypt\port\pic32\crypt_sha384_hw.h Success. New file.
+[m[1;30m15:59:05.248    INFO:     ...\wolfssl\wolfcrypt\port\pic32\crypt_sha512_hw.h Success. New file.
+[m[1;30m15:59:05.248    INFO:     ...ssl\wolfssl\wolfcrypt\port\pic32\crypt_sha_hw.h Success. New file.
+[m[1;30m15:59:05.248    INFO:     ...olfssl\wolfcrypt\port\pic32\crypt_sha_sam6156.h Success. New file.
+[m[1;30m15:59:05.248    INFO:     ...lfssl\wolfcrypt\port\pic32\crypt_sha_sam11105.h Success. New file.
+[m[1;30m15:59:05.248    INFO:     ...sl\wolfssl\wolfcrypt\port\pic32\crypt_tdes_hw.h Success. New file.
+[m[1;30m15:59:05.248    INFO:     ...wolfssl\wolfcrypt\port\pic32\crypt_tdes_hwInt.h Success. New file.
+[m[1;30m15:59:05.248    INFO:     ...lfssl\wolfcrypt\port\pic32\crypt_tdes_sam6150.h Success. New file.
+[m[1;30m15:59:05.248    INFO:     ...olfssl\wolfcrypt\port\pic32\crypt_wolfcryptcb.h Success. New file.
+[m[1;30m15:59:05.248    INFO:     ...sl\wolfssl\wolfcrypt\port\pic32\pic32mz-crypt.h Success. New file.
+[m[1;30m15:59:05.248    INFO:     ...hird_party\wolfssl\wolfssl\wolfcrypt\pwdbased.h Success. New file.
+[m[1;30m15:59:05.249    INFO:     ...\third_party\wolfssl\wolfssl\wolfcrypt\random.h Success. New file.
+[m[1;30m15:59:05.304    INFO:     ..\src\third_party\wolfssl\wolfssl\wolfcrypt\rc2.h Success. New file.
+[m[1;30m15:59:05.305    INFO:     ...\third_party\wolfssl\wolfssl\wolfcrypt\ripemd.h Success. New file.
+[m[1;30m15:59:05.305    INFO:     ..\src\third_party\wolfssl\wolfssl\wolfcrypt\rsa.h Success. New file.
+[m[1;30m15:59:05.305    INFO:     ...c\third_party\wolfssl\wolfssl\wolfcrypt\sakke.h Success. New file.
+[m[1;30m15:59:05.305    INFO:     ...hird_party\wolfssl\wolfssl\wolfcrypt\selftest.h Success. New file.
+[m[1;30m15:59:05.305    INFO:     ...hird_party\wolfssl\wolfssl\wolfcrypt\settings.h Success. New file.
+[m[1;30m15:59:05.305    INFO:     ...rc\third_party\wolfssl\wolfssl\wolfcrypt\sha3.h Success. New file.
+[m[1;30m15:59:05.305    INFO:     ...\third_party\wolfssl\wolfssl\wolfcrypt\sha256.h Success. New file.
+[m[1;30m15:59:05.305    INFO:     ...\third_party\wolfssl\wolfssl\wolfcrypt\sha512.h Success. New file.
+[m[1;30m15:59:05.305    INFO:     ..\src\third_party\wolfssl\wolfssl\wolfcrypt\sha.h Success. New file.
+[m[1;30m15:59:05.305    INFO:     ...ird_party\wolfssl\wolfssl\wolfcrypt\signature.h Success. New file.
+[m[1;30m15:59:05.305    INFO:     ...third_party\wolfssl\wolfssl\wolfcrypt\siphash.h Success. New file.
+[m[1;30m15:59:05.305    INFO:     ..\src\third_party\wolfssl\wolfssl\wolfcrypt\sp.h  Success. New file.
+[m[1;30m15:59:05.306    INFO:     ...\third_party\wolfssl\wolfssl\wolfcrypt\sp_int.h Success. New file.
+[m[1;30m15:59:05.306    INFO:     ...third_party\wolfssl\wolfssl\wolfcrypt\src\aes.c Success. New file.
+[m[1;30m15:59:05.306    INFO:     ...hird_party\wolfssl\wolfssl\wolfcrypt\src\arc4.c Success. New file.
+[m[1;30m15:59:05.306    INFO:     ...third_party\wolfssl\wolfssl\wolfcrypt\src\asm.c Success. New file.
+[m[1;30m15:59:05.306    INFO:     ...third_party\wolfssl\wolfssl\wolfcrypt\src\asn.c Success. New file.
+[m[1;30m15:59:05.306    INFO:     ...d_party\wolfssl\wolfssl\wolfcrypt\src\blake2b.c Success. New file.
+[m[1;30m15:59:05.306    INFO:     ...d_party\wolfssl\wolfssl\wolfcrypt\src\blake2s.c Success. New file.
+[m[1;30m15:59:05.306    INFO:     ..._party\wolfssl\wolfssl\wolfcrypt\src\camellia.c Success. New file.
+[m[1;30m15:59:05.306    INFO:     ...lfssl\wolfssl\wolfcrypt\src\chacha20_poly1305.c Success. New file.
+[m[1;30m15:59:05.306    INFO:     ...rd_party\wolfssl\wolfssl\wolfcrypt\src\chacha.c Success. New file.
+[m[1;30m15:59:05.306    INFO:     ...hird_party\wolfssl\wolfssl\wolfcrypt\src\cmac.c Success. New file.
+[m[1;30m15:59:05.306    INFO:     ...rd_party\wolfssl\wolfssl\wolfcrypt\src\coding.c Success. New file.
+[m[1;30m15:59:05.307    INFO:     ..._party\wolfssl\wolfssl\wolfcrypt\src\compress.c Success. New file.
+[m[1;30m15:59:05.307    INFO:     ...ird_party\wolfssl\wolfssl\wolfcrypt\src\cpuid.c Success. New file.
+[m[1;30m15:59:05.307    INFO:     ..._party\wolfssl\wolfssl\wolfcrypt\src\cryptocb.c Success. New file.
+[m[1;30m15:59:05.307    INFO:     ..._party\wolfssl\wolfssl\wolfcrypt\src\curve448.c Success. New file.
+[m[1;30m15:59:05.307    INFO:     ...arty\wolfssl\wolfssl\wolfcrypt\src\curve25519.c Success. New file.
+[m[1;30m15:59:05.307    INFO:     ...hird_party\wolfssl\wolfssl\wolfcrypt\src\des3.c Success. New file.
+[m[1;30m15:59:05.307    INFO:     ...\third_party\wolfssl\wolfssl\wolfcrypt\src\dh.c Success. New file.
+[m[1;30m15:59:05.307    INFO:     ...third_party\wolfssl\wolfssl\wolfcrypt\src\dsa.c Success. New file.
+[m[1;30m15:59:05.307    INFO:     ...third_party\wolfssl\wolfssl\wolfcrypt\src\ecc.c Success. New file.
+[m[1;30m15:59:05.307    INFO:     ...rd_party\wolfssl\wolfssl\wolfcrypt\src\ecc_fp.c Success. New file.
+[m[1;30m15:59:05.307    INFO:     ...ird_party\wolfssl\wolfssl\wolfcrypt\src\eccsi.c Success. New file.
+[m[1;30m15:59:05.307    INFO:     ...ird_party\wolfssl\wolfssl\wolfcrypt\src\ed448.c Success. New file.
+[m[1;30m15:59:05.308    INFO:     ...d_party\wolfssl\wolfssl\wolfcrypt\src\ed25519.c Success. New file.
+[m[1;30m15:59:05.308    INFO:     ...ird_party\wolfssl\wolfssl\wolfcrypt\src\error.c Success. New file.
+[m[1;30m15:59:05.308    INFO:     ...third_party\wolfssl\wolfssl\wolfcrypt\src\evp.c Success. New file.
+[m[1;30m15:59:05.308    INFO:     ...rd_party\wolfssl\wolfssl\wolfcrypt\src\falcon.c Success. New file.
+[m[1;30m15:59:05.308    INFO:     ...rd_party\wolfssl\wolfssl\wolfcrypt\src\fe_448.c Success. New file.
+[m[1;30m15:59:05.308    INFO:     ...arty\wolfssl\wolfssl\wolfcrypt\src\fe_low_mem.c Success. New file.
+[m[1;30m15:59:05.308    INFO:     ...y\wolfssl\wolfssl\wolfcrypt\src\fe_operations.c Success. New file.
+[m[1;30m15:59:05.308    INFO:     ...rd_party\wolfssl\wolfssl\wolfcrypt\src\ge_448.c Success. New file.
+[m[1;30m15:59:05.308    INFO:     ...arty\wolfssl\wolfssl\wolfcrypt\src\ge_low_mem.c Success. New file.
+[m[1;30m15:59:05.308    INFO:     ...y\wolfssl\wolfssl\wolfcrypt\src\ge_operations.c Success. New file.
+[m[1;30m15:59:05.308    INFO:     ...hird_party\wolfssl\wolfssl\wolfcrypt\src\hash.c Success. New file.
+[m[1;30m15:59:05.308    INFO:     ...hird_party\wolfssl\wolfssl\wolfcrypt\src\hmac.c Success. New file.
+[m[1;30m15:59:05.309    INFO:     ...d_party\wolfssl\wolfssl\wolfcrypt\src\integer.c Success. New file.
+[m[1;30m15:59:05.309    INFO:     ...third_party\wolfssl\wolfssl\wolfcrypt\src\kdf.c Success. New file.
+[m[1;30m15:59:05.309    INFO:     ...d_party\wolfssl\wolfssl\wolfcrypt\src\logging.c Success. New file.
+[m[1;30m15:59:05.309    INFO:     ...third_party\wolfssl\wolfssl\wolfcrypt\src\md2.c Success. New file.
+[m[1;30m15:59:05.309    INFO:     ...third_party\wolfssl\wolfssl\wolfcrypt\src\md4.c Success. New file.
+[m[1;30m15:59:05.309    INFO:     ...third_party\wolfssl\wolfssl\wolfcrypt\src\md5.c Success. New file.
+[m[1;30m15:59:05.309    INFO:     ...rd_party\wolfssl\wolfssl\wolfcrypt\src\memory.c Success. New file.
+[m[1;30m15:59:05.309    INFO:     ...hird_party\wolfssl\wolfssl\wolfcrypt\src\misc.c Success. New file.
+[m[1;30m15:59:05.309    INFO:     ...ird_party\wolfssl\wolfssl\wolfcrypt\src\pkcs7.c Success. New file.
+[m[1;30m15:59:05.309    INFO:     ...rd_party\wolfssl\wolfssl\wolfcrypt\src\pkcs12.c Success. New file.
+[m[1;30m15:59:05.309    INFO:     ..._party\wolfssl\wolfssl\wolfcrypt\src\poly1305.c Success. New file.
+[m[1;30m15:59:05.309    INFO:     ...sl\wolfcrypt\src\port\pic32\crypt_aes_sam6149.c Success. New file.
+[m[1;30m15:59:05.310    INFO:     ...fssl\wolfcrypt\src\port\pic32\crypt_aes_u2238.c Success. New file.
+[m[1;30m15:59:05.310    INFO:     ...ssl\wolfcrypt\src\port\pic32\crypt_ecc_ba414e.c Success. New file.
+[m[1;30m15:59:05.310    INFO:     ...fssl\wolfcrypt\src\port\pic32\crypt_ecc_pukcl.c Success. New file.
+[m[1;30m15:59:05.310    INFO:     ...olfcrypt\src\port\pic32\crypt_pukcl_functions.c Success. New file.
+[m[1;30m15:59:05.310    INFO:     ...sl\wolfcrypt\src\port\pic32\crypt_rng_sam6334.c Success. New file.
+[m[1;30m15:59:05.310    INFO:     ...fssl\wolfcrypt\src\port\pic32\crypt_rng_u2242.c Success. New file.
+[m[1;30m15:59:05.310    INFO:     ...fssl\wolfcrypt\src\port\pic32\crypt_rsa_pukcl.c Success. New file.
+[m[1;30m15:59:05.310    INFO:     ...fssl\wolfcrypt\src\port\pic32\crypt_sam_u2803.c Success. New file.
+[m[1;30m15:59:05.310    INFO:     ...l\wolfcrypt\src\port\pic32\crypt_sha1_sam6156.c Success. New file.
+[m[1;30m15:59:05.310    INFO:     ...\wolfcrypt\src\port\pic32\crypt_sha1_sam11105.c Success. New file.
+[m[1;30m15:59:05.310    INFO:     ...wolfcrypt\src\port\pic32\crypt_sha224_sam6156.c Success. New file.
+[m[1;30m15:59:05.310    INFO:     ...olfcrypt\src\port\pic32\crypt_sha224_sam11105.c Success. New file.
+[m[1;30m15:59:05.311    INFO:     ...wolfcrypt\src\port\pic32\crypt_sha256_sam6156.c Success. New file.
+[m[1;30m15:59:05.311    INFO:     ...olfcrypt\src\port\pic32\crypt_sha256_sam11105.c Success. New file.
+[m[1;30m15:59:05.311    INFO:     ...wolfcrypt\src\port\pic32\crypt_sha384_sam6156.c Success. New file.
+[m[1;30m15:59:05.311    INFO:     ...wolfcrypt\src\port\pic32\crypt_sha512_sam6156.c Success. New file.
+[m[1;30m15:59:05.311    INFO:     ...l\wolfcrypt\src\port\pic32\crypt_tdes_sam6150.c Success. New file.
+[m[1;30m15:59:05.311    INFO:     ...sl\wolfcrypt\src\port\pic32\crypt_wolfcryptcb.c Success. New file.
+[m[1;30m15:59:05.311    INFO:     ...olfssl\wolfcrypt\src\port\pic32\pic32mz-crypt.c Success. New file.
+[m[1;30m15:59:05.311    INFO:     ..._party\wolfssl\wolfssl\wolfcrypt\src\pwdbased.c Success. New file.
+[m[1;30m15:59:05.311    INFO:     ...rd_party\wolfssl\wolfssl\wolfcrypt\src\random.c Success. New file.
+[m[1;30m15:59:05.311    INFO:     ...third_party\wolfssl\wolfssl\wolfcrypt\src\rc2.c Success. New file.
+[m[1;30m15:59:05.311    INFO:     ...rd_party\wolfssl\wolfssl\wolfcrypt\src\ripemd.c Success. New file.
+[m[1;30m15:59:05.311    INFO:     ...third_party\wolfssl\wolfssl\wolfcrypt\src\rsa.c Success. New file.
+[m[1;30m15:59:05.312    INFO:     ...ird_party\wolfssl\wolfssl\wolfcrypt\src\sakke.c Success. New file.
+[m[1;30m15:59:05.312    INFO:     ...hird_party\wolfssl\wolfssl\wolfcrypt\src\sha3.c Success. New file.
+[m[1;30m15:59:05.312    INFO:     ...rd_party\wolfssl\wolfssl\wolfcrypt\src\sha256.c Success. New file.
+[m[1;30m15:59:05.312    INFO:     ...rd_party\wolfssl\wolfssl\wolfcrypt\src\sha512.c Success. New file.
+[m[1;30m15:59:05.312    INFO:     ...third_party\wolfssl\wolfssl\wolfcrypt\src\sha.c Success. New file.
+[m[1;30m15:59:05.312    INFO:     ...party\wolfssl\wolfssl\wolfcrypt\src\signature.c Success. New file.
+[m[1;30m15:59:05.312    INFO:     ...d_party\wolfssl\wolfssl\wolfcrypt\src\siphash.c Success. New file.
+[m[1;30m15:59:05.312    INFO:     ..._party\wolfssl\wolfssl\wolfcrypt\src\sp_arm32.c Success. New file.
+[m[1;30m15:59:05.312    INFO:     ..._party\wolfssl\wolfssl\wolfcrypt\src\sp_arm64.c Success. New file.
+[m[1;30m15:59:05.312    INFO:     ...rty\wolfssl\wolfssl\wolfcrypt\src\sp_armthumb.c Success. New file.
+[m[1;30m15:59:05.312    INFO:     ...rd_party\wolfssl\wolfssl\wolfcrypt\src\sp_c32.c Success. New file.
+[m[1;30m15:59:05.312    INFO:     ...rd_party\wolfssl\wolfssl\wolfcrypt\src\sp_c64.c Success. New file.
+[m[1;30m15:59:05.313    INFO:     ...arty\wolfssl\wolfssl\wolfcrypt\src\sp_cortexm.c Success. New file.
+[m[1;30m15:59:05.313    INFO:     ..._party\wolfssl\wolfssl\wolfcrypt\src\sp_dsp32.c Success. New file.
+[m[1;30m15:59:05.313    INFO:     ...rd_party\wolfssl\wolfssl\wolfcrypt\src\sp_int.c Success. New file.
+[m[1;30m15:59:05.313    INFO:     ...party\wolfssl\wolfssl\wolfcrypt\src\sp_x86_64.c Success. New file.
+[m[1;30m15:59:05.313    INFO:     ...third_party\wolfssl\wolfssl\wolfcrypt\src\srp.c Success. New file.
+[m[1;30m15:59:05.313    INFO:     ...third_party\wolfssl\wolfssl\wolfcrypt\src\tfm.c Success. New file.
+[m[1;30m15:59:05.313    INFO:     ...rd_party\wolfssl\wolfssl\wolfcrypt\src\wc_dsp.c Success. New file.
+[m[1;30m15:59:05.313    INFO:     ...arty\wolfssl\wolfssl\wolfcrypt\src\wc_encrypt.c Success. New file.
+[m[1;30m15:59:05.313    INFO:     ...party\wolfssl\wolfssl\wolfcrypt\src\wc_pkcs11.c Success. New file.
+[m[1;30m15:59:05.313    INFO:     ...d_party\wolfssl\wolfssl\wolfcrypt\src\wc_port.c Success. New file.
+[m[1;30m15:59:05.313    INFO:     ...party\wolfssl\wolfssl\wolfcrypt\src\wolfevent.c Success. New file.
+[m[1;30m15:59:05.313    INFO:     ..._party\wolfssl\wolfssl\wolfcrypt\src\wolfmath.c Success. New file.
+[m[1;30m15:59:05.314    INFO:     ..\src\third_party\wolfssl\wolfssl\wolfcrypt\srp.h Success. New file.
+[m[1;30m15:59:05.314    INFO:     ..\src\third_party\wolfssl\wolfssl\wolfcrypt\tfm.h Success. New file.
+[m[1;30m15:59:05.314    INFO:     ...c\third_party\wolfssl\wolfssl\wolfcrypt\types.h Success. New file.
+[m[1;30m15:59:05.314    INFO:     ...rd_party\wolfssl\wolfssl\wolfcrypt\visibility.h Success. New file.
+[m[1;30m15:59:05.314    INFO:     ...rd_party\wolfssl\wolfssl\wolfcrypt\wc_encrypt.h Success. New file.
+[m[1;30m15:59:05.314    INFO:     ...ird_party\wolfssl\wolfssl\wolfcrypt\wc_pkcs11.h Success. New file.
+[m[1;30m15:59:05.314    INFO:     ...third_party\wolfssl\wolfssl\wolfcrypt\wc_port.h Success. New file.
+[m[1;30m15:59:05.314    INFO:     ...ird_party\wolfssl\wolfssl\wolfcrypt\wolfevent.h Success. New file.
+[m[1;30m15:59:05.314    INFO:     ...hird_party\wolfssl\wolfssl\wolfcrypt\wolfmath.h Success. New file.
+[m[1;30m15:59:05.314    INFO:     ..\src\uart_bridge.c                               Success.
+[m[1;30m15:59:05.315    INFO:     ..\src\uart_bridge.h                               Success.
+[mCode Generation is complete.
+MCC> MCC> bye

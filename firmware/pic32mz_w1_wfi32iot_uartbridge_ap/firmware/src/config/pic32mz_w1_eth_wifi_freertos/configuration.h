@@ -103,7 +103,7 @@ extern "C" {
 
 #define SYS_CMD_ENABLE
 #define SYS_CMD_DEVICE_MAX_INSTANCES       SYS_CONSOLE_DEVICE_MAX_INSTANCES
-#define SYS_CMD_PRINT_BUFFER_SIZE          8192
+#define SYS_CMD_PRINT_BUFFER_SIZE          8192U
 #define SYS_CMD_BUFFER_DMA_READY
 
 /* Command System Service RTOS Configurations*/
@@ -117,12 +117,12 @@ extern "C" {
 #define SYS_DEBUG_USE_CONSOLE
 
 
-#define SYS_CONSOLE_DEVICE_MAX_INSTANCES   			1
-#define SYS_CONSOLE_UART_MAX_INSTANCES 	   			0
-#define SYS_CONSOLE_USB_CDC_MAX_INSTANCES 	   		1   //KEEP 1
-#define SYS_CONSOLE_PRINT_BUFFER_SIZE        		8192
+#define SYS_CONSOLE_DEVICE_MAX_INSTANCES   			(1U)
+#define SYS_CONSOLE_UART_MAX_INSTANCES 	   			(0U)
+#define SYS_CONSOLE_USB_CDC_MAX_INSTANCES 	   		(5U)
+#define SYS_CONSOLE_PRINT_BUFFER_SIZE        		(8192U)
 
-#define SYS_CONSOLE_USB_CDC_READ_WRITE_BUFFER_SIZE 	64
+#define SYS_CONSOLE_USB_CDC_READ_WRITE_BUFFER_SIZE 	(64)
 
 
 
@@ -135,12 +135,19 @@ extern "C" {
 #define DRV_USART_INDEX_0                  0
 #define DRV_USART_CLIENTS_NUMBER_IDX0      1
 
+
 /*** WiFi PIC32MZW1 Driver Configuration ***/
+
+#pragma region name="wlan_mem" origin=0xa0040000 size=0x10000
+#define PIC32MZW_RSR_PKT_NUM    (0x10000 / sizeof(WDRV_PIC32MZW_PKT_LIST_NODE))
+
 #define WDRV_PIC32MZW1_DEVICE_USE_SYS_DEBUG
-#define WDRV_PIC32MZW_WPA3_SUPPORT
+#define WDRV_PIC32MZW_WPA3_PERSONAL_SUPPORT
 #define WDRV_PIC32MZW_BA414E_SUPPORT
+#define WDRV_PIC32MZW_BIGINTSW_SUPPORT
 #define WDRV_PIC32MZW_ALARM_PERIOD_1MS          390
 #define WDRV_PIC32MZW_ALARM_PERIOD_MAX          168
+
 /* USART Driver Global Configuration Options */
 #define DRV_USART_INSTANCES_NUMBER         1
 
@@ -167,9 +174,9 @@ extern "C" {
 
 /*** ICMPv4 Client Configuration ***/
 #define TCPIP_STACK_USE_ICMP_CLIENT
-#define TCPIP_ICMP_CLIENT_USER_NOTIFICATION   true
 #define TCPIP_ICMP_ECHO_REQUEST_TIMEOUT        500
 #define TCPIP_ICMP_TASK_TICK_RATE              33
+#define TCPIP_STACK_MAX_CLIENT_ECHO_REQUESTS   4
 #define TCPIP_ICMP_COMMAND_ENABLE              true
 #define TCPIP_STACK_COMMANDS_ICMP_ECHO_REQUESTS         4
 #define TCPIP_STACK_COMMANDS_ICMP_ECHO_REQUEST_DELAY    1000
@@ -182,20 +189,16 @@ extern "C" {
 #define SYS_WIFIPROV_SOCKETPORT        		6666
 
 /* Number of Endpoints used */
-#define DRV_USBFS_ENDPOINTS_NUMBER                        4
+#define DRV_USBFS_ENDPOINTS_NUMBER                        4U
 
 /* The USB Device Layer will not initialize the USB Driver */
 #define USB_DEVICE_DRIVER_INITIALIZE_EXPLICIT
 
 /* Maximum device layer instances */
-#define USB_DEVICE_INSTANCES_NUMBER                         1
+#define USB_DEVICE_INSTANCES_NUMBER                         1U
 
 /* EP0 size in bytes */
-#define USB_DEVICE_EP0_BUFFER_SIZE                          64
-
-
-
-
+#define USB_DEVICE_EP0_BUFFER_SIZE                          64U
 
 
 
@@ -242,23 +245,23 @@ extern "C" {
 
 
 /* Network Configuration Index 0 */
-#define TCPIP_NETWORK_DEFAULT_INTERFACE_NAME_IDX0	"PIC32MZW1"
+#define TCPIP_NETWORK_DEFAULT_INTERFACE_NAME_IDX0 "PIC32MZW1"
 #define TCPIP_IF_PIC32MZW1
 
-#define TCPIP_NETWORK_DEFAULT_HOST_NAME_IDX0				"MCHPBOARD_W"
-#define TCPIP_NETWORK_DEFAULT_MAC_ADDR_IDX0				0
+#define TCPIP_NETWORK_DEFAULT_HOST_NAME_IDX0              "MCHPBOARD_W"
+#define TCPIP_NETWORK_DEFAULT_MAC_ADDR_IDX0               0
 
-#define TCPIP_NETWORK_DEFAULT_IP_ADDRESS_IDX0			"192.168.1.10"
-#define TCPIP_NETWORK_DEFAULT_IP_MASK_IDX0			"255.255.255.0"
-#define TCPIP_NETWORK_DEFAULT_GATEWAY_IDX0			"192.168.1.1"
-#define TCPIP_NETWORK_DEFAULT_DNS_IDX0				"192.168.1.1"
-#define TCPIP_NETWORK_DEFAULT_SECOND_DNS_IDX0			"0.0.0.0"
-#define TCPIP_NETWORK_DEFAULT_POWER_MODE_IDX0			"full"
-#define TCPIP_NETWORK_DEFAULT_INTERFACE_FLAGS_IDX0			\
-													TCPIP_NETWORK_CONFIG_DHCP_SERVER_ON |\
-													TCPIP_NETWORK_CONFIG_IP_STATIC
-													
-#define TCPIP_NETWORK_DEFAULT_MAC_DRIVER_IDX0			WDRV_PIC32MZW1_MACObject
+#define TCPIP_NETWORK_DEFAULT_IP_ADDRESS_IDX0         "192.168.1.10"
+#define TCPIP_NETWORK_DEFAULT_IP_MASK_IDX0            "255.255.255.0"
+#define TCPIP_NETWORK_DEFAULT_GATEWAY_IDX0            "192.168.1.1"
+#define TCPIP_NETWORK_DEFAULT_DNS_IDX0                "192.168.1.1"
+#define TCPIP_NETWORK_DEFAULT_SECOND_DNS_IDX0         "0.0.0.0"
+#define TCPIP_NETWORK_DEFAULT_POWER_MODE_IDX0         "full"
+#define TCPIP_NETWORK_DEFAULT_INTERFACE_FLAGS_IDX0            \
+                                                    TCPIP_NETWORK_CONFIG_DHCP_SERVER_ON |\
+                                                    TCPIP_NETWORK_CONFIG_IP_STATIC
+                                                    
+#define TCPIP_NETWORK_DEFAULT_MAC_DRIVER_IDX0         WDRV_PIC32MZW1_MACObject
 
 
 
@@ -267,13 +270,13 @@ extern "C" {
 
 
 /* Maximum instances of CDC function driver */
-#define USB_DEVICE_CDC_INSTANCES_NUMBER                     1
+#define USB_DEVICE_CDC_INSTANCES_NUMBER                     1U
 
 
 /* CDC Transfer Queue Size for both read and
    write. Applicable to all instances of the
    function driver */
-#define USB_DEVICE_CDC_QUEUE_DEPTH_COMBINED                 3
+#define USB_DEVICE_CDC_QUEUE_DEPTH_COMBINED                 3U
 
 
 /*** telnet Configuration ***/
@@ -296,7 +299,7 @@ extern "C" {
 /*** USB Driver Configuration ***/
 
 /* Maximum USB driver instances */
-#define DRV_USBFS_INSTANCES_NUMBER                        1
+#define DRV_USBFS_INSTANCES_NUMBER                        1U
 
 /* Interrupt mode enabled */
 #define DRV_USBFS_INTERRUPT_MODE                          true
@@ -304,9 +307,10 @@ extern "C" {
 
 /* Enables Device Support */
 #define DRV_USBFS_DEVICE_SUPPORT                          true
-	
+
 /* Disable Host Support */
 #define DRV_USBFS_HOST_SUPPORT                            false
+
 
 
 
@@ -420,6 +424,7 @@ extern "C" {
 
 #define TCPIP_STACK_TICK_RATE		        		5
 #define TCPIP_STACK_SECURE_PORT_ENTRIES             10
+#define TCPIP_STACK_LINK_RATE		        		333
 
 #define TCPIP_STACK_ALIAS_INTERFACE_SUPPORT   false
 
@@ -434,7 +439,9 @@ extern "C" {
 #define TCPIP_STACK_INTERFACE_CHANGE_SIGNALING   false
 #define TCPIP_STACK_CONFIGURATION_SAVE_RESTORE   true
 #define TCPIP_STACK_EXTERN_PACKET_PROCESS   false
+#define TCPIP_STACK_RUN_TIME_INIT   false
 
+#define TCPIP_STACK_INTMAC_COUNT           0
 
 
 
@@ -476,6 +483,8 @@ extern "C" {
 #define WOLFSSL_HAVE_MCHP_HW_CRYPTO_ECC_HW_BA414E
 #define WOLFSSL_HAVE_MCHP_BA414E_CRYPTO
 // ---------- CRYPTO HARDWARE MANIFEST END ----------
+#undef WOLFSSL_HAVE_MIN
+#undef WOLFSSL_HAVE_MAX
 // ---------- FUNCTIONAL CONFIGURATION START ----------
 #define WOLFSSL_AES_SMALL_TABLES
 #define NO_MD4
@@ -552,9 +561,13 @@ extern "C" {
 
 
 
+
 /* SYS WIFI RTOS Configurations*/
 #define SYS_WIFI_RTOS_SIZE           		1024
 #define SYS_WIFI_RTOS_PRIORITY             1
+
+#define TCPIP_STACK_NETWORK_INTERAFCE_COUNT  	1
+
 
 
 

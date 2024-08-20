@@ -52,6 +52,7 @@
 
 #include "configuration.h"
 #include "definitions.h"
+#include "sys_tasks.h"
 
 
 // *****************************************************************************
@@ -62,31 +63,31 @@
 /* Handle for the MONITOR_Tasks. */
 TaskHandle_t xMONITOR_Tasks;
 
-void _MONITOR_Tasks(  void *pvParameters  )
+static void lMONITOR_Tasks(  void *pvParameters  )
 {   
-    while(1)
+    while(true)
     {
         MONITOR_Tasks();
-        vTaskDelay(10 / portTICK_PERIOD_MS);
+        vTaskDelay(10U / portTICK_PERIOD_MS);
     }
 }
 /* Handle for the APP_Tasks. */
 TaskHandle_t xAPP_Tasks;
 
-void _APP_Tasks(  void *pvParameters  )
+static void lAPP_Tasks(  void *pvParameters  )
 {   
-    while(1)
+    while(true)
     {
         APP_Tasks();
-        vTaskDelay(10 / portTICK_PERIOD_MS);
+        vTaskDelay(10U / portTICK_PERIOD_MS);
     }
 }
 /* Handle for the UART_BRIDGE_Tasks. */
 TaskHandle_t xUART_BRIDGE_Tasks;
 
-void _UART_BRIDGE_Tasks(  void *pvParameters  )
+static void lUART_BRIDGE_Tasks(  void *pvParameters  )
 {   
-    while(1)
+    while(true)
     {
         UART_BRIDGE_Tasks();
     }
@@ -111,24 +112,16 @@ void _DRV_BA414E_Tasks(  void *pvParameters  )
     }
 }
 
-void _USB_DEVICE_Tasks(  void *pvParameters  )
+static void F_USB_DEVICE_Tasks(  void *pvParameters  )
 {
-    while(1)
+    while(true)
     {
-				 /* USB Device layer tasks routine */
+                /* USB Device layer tasks routine */
         USB_DEVICE_Tasks(sysObj.usbDevObject0);
-        vTaskDelay(1 / portTICK_PERIOD_MS);
+        vTaskDelay(1U / portTICK_PERIOD_MS);
     }
 }
 
-void _DRV_USBFS_Tasks(  void *pvParameters  )
-{
-    while(1)
-    {
-				 /* USB FS Driver Task Routine */
-        DRV_USBFS_Tasks(sysObj.drvUSBFSObject);
-    }
-}
 
 
 void _TCPIP_STACK_Task(  void *pvParameters  )
@@ -140,7 +133,7 @@ void _TCPIP_STACK_Task(  void *pvParameters  )
     }
 }
 
-void _SYS_CONSOLE_1_Tasks(  void *pvParameters  )
+void lSYS_CONSOLE_1_Tasks(  void *pvParameters  )
 {
     while(1)
     {
@@ -150,7 +143,8 @@ void _SYS_CONSOLE_1_Tasks(  void *pvParameters  )
 }
 
 
-void _SYS_CMD_Tasks(  void *pvParameters  )
+TaskHandle_t xSYS_CMD_Tasks;
+void lSYS_CMD_Tasks(  void *pvParameters  )
 {
     while(1)
     {
@@ -158,6 +152,7 @@ void _SYS_CMD_Tasks(  void *pvParameters  )
         vTaskDelay(10 / portTICK_PERIOD_MS);
     }
 }
+
 
 
 static void _WDRV_PIC32MZW1_Tasks(  void *pvParameters  )
@@ -206,7 +201,7 @@ void SYS_Tasks ( void )
 {
     /* Maintain system services */
     
-    xTaskCreate( _SYS_CONSOLE_1_Tasks,
+    xTaskCreate( lSYS_CONSOLE_1_Tasks,
         "SYS_CONSOLE_1_TASKS",
         SYS_CONSOLE_RTOS_STACK_SIZE_IDX1,
         (void*)NULL,
@@ -215,12 +210,12 @@ void SYS_Tasks ( void )
     );
 
 
-    xTaskCreate( _SYS_CMD_Tasks,
+    (void) xTaskCreate( lSYS_CMD_Tasks,
         "SYS_CMD_TASKS",
         SYS_CMD_RTOS_STACK_SIZE,
         (void*)NULL,
         SYS_CMD_RTOS_TASK_PRIORITY,
-        (TaskHandle_t*)NULL
+        &xSYS_CMD_Tasks
     );
 
 
@@ -260,7 +255,7 @@ void SYS_Tasks ( void )
 
 
     /* Create OS Thread for USB_DEVICE_Tasks. */
-    xTaskCreate( _USB_DEVICE_Tasks,
+    (void) xTaskCreate( F_USB_DEVICE_Tasks,
         "USB_DEVICE_TASKS",
         1024,
         (void*)NULL,
@@ -292,7 +287,7 @@ void SYS_Tasks ( void )
 
     /* Maintain the application's state machine. */
         /* Create OS Thread for MONITOR_Tasks. */
-    xTaskCreate((TaskFunction_t) _MONITOR_Tasks,
+    (void) xTaskCreate((TaskFunction_t) lMONITOR_Tasks,
                 "MONITOR_Tasks",
                 1024,
                 NULL,
@@ -300,7 +295,7 @@ void SYS_Tasks ( void )
                 &xMONITOR_Tasks);
 
     /* Create OS Thread for APP_Tasks. */
-    xTaskCreate((TaskFunction_t) _APP_Tasks,
+    (void) xTaskCreate((TaskFunction_t) lAPP_Tasks,
                 "APP_Tasks",
                 1024,
                 NULL,
@@ -308,7 +303,7 @@ void SYS_Tasks ( void )
                 &xAPP_Tasks);
 
     /* Create OS Thread for UART_BRIDGE_Tasks. */
-    xTaskCreate((TaskFunction_t) _UART_BRIDGE_Tasks,
+    (void) xTaskCreate((TaskFunction_t) lUART_BRIDGE_Tasks,
                 "UART_BRIDGE_Tasks",
                 1024,
                 NULL,

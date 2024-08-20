@@ -50,6 +50,8 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 #include "system/wifi/sys_wifi.h"
 #include "configuration.h"
 #include "system/wifiprov/sys_wifiprov.h"
+
+
 // *****************************************************************************
 // *****************************************************************************
 // Section: Type Definitions
@@ -132,6 +134,7 @@ static SYS_WIFI_RESULT SYS_WIFI_ConnectReq(void);
 static uint8_t SYS_WIFI_APDisconnectSTA(uint8_t *macAddr);
 
 static void  SYS_WIFI_WIFIPROVCallBack(uint32_t event, void * data,void *cookie);
+
 
 
 // *****************************************************************************
@@ -379,12 +382,6 @@ static void SYS_WIFI_APConnCallBack
                 uint8_t idx = 0;
                 SYS_CONSOLE_PRINT("\r\nConnected STA MAC Address=%x:%x:%x:%x:%x:%x", wifiSrvcStaConnMac.addr[0], wifiSrvcStaConnMac.addr[1], wifiSrvcStaConnMac.addr[2], wifiSrvcStaConnMac.addr[3], wifiSrvcStaConnMac.addr[4], wifiSrvcStaConnMac.addr[5]);
 
-#if 1   // improve DHCP issue
-                TCPIP_NET_HANDLE netHdl = TCPIP_STACK_NetHandleGet("PIC32MZW1");
-                TCPIP_MAC_ADDR hwAdd;
-                memcpy(hwAdd.v, wifiSrvcStaConnMac.addr, 6);
-                TCPIP_DHCPS_LeaseEntryRemove(netHdl, &hwAdd);
-#endif
                 /* Store the connected STA Info in the STA Conn Array */
                 for(idx = 0; idx < SYS_WIFI_MAX_STA_SUPPORTED; idx++)
                 {
@@ -573,11 +570,10 @@ static SYS_WIFI_RESULT SYS_WIFI_ConfigReq(void)
                 }
                 break;
             }
-
             case SYS_WIFI_WEP:
             {
-               ret = SYS_WIFI_CONFIG_FAILURE; 
-              /* Wi-Fi service doesn't support WEP */
+                ret = SYS_WIFI_CONFIG_FAILURE; 
+                /* Wi-Fi service doesn't support WEP */
                 break;
             }
 
@@ -738,6 +734,8 @@ static uint32_t SYS_WIFI_ExecuteBlock
                     {
                         if (SYS_WIFI_SUCCESS == SYS_WIFI_ConfigReq()) 
                         {
+						
+
                             if (SYS_WIFI_SUCCESS == SYS_WIFI_ConnectReq()) 
                             {
                                 wifiSrvcObj->wifiSrvcStatus = SYS_WIFI_STATUS_WAIT_FOR_AP_IP;
